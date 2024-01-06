@@ -13,20 +13,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
     <style>
-        
         @font-face {
             font-family: Baskerville;
             src: url('assets/fonts/Baskerville Old Face.ttf');
+        }
+
+        .navbar {
+            box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.75);
         }
 
         .nav-link {
             font-family: Baskerville;
         }
 
-        .dropdown-item{
+        .dropdown-item {
             font-family: Baskerville;
         }
-        
+
         .dropdown-menu {
             animation: showdropdown .5s linear;
         }
