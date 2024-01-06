@@ -75,52 +75,59 @@
             outline: none !important;
             box-shadow: none !important;
         }
+
+        .header{
+            margin-bottom: 100px ;
+        }
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top" style="background: #2B7870;">
-        <div class="container-fluid">
-            <div>
-                <img class="pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
-                <img src="assets/ukp outline.png" alt="ukpLogo" width="50">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background: #2B7870;">
+            <div class="container-fluid">
+                <div>
+                    <img class="pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
+                    <img src="assets/ukp outline.png" alt="ukpLogo" width="50">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">TIMELINE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">MERCH</a>
+                        </li>
+                        <li class="nav-item dropdown navdrop">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                OUR EVENTS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end mt-lg-3">
+                                <li><a class="dropdown-item" href="#">Sayembara Archiexpo 23</a></li>
+                                <li><a class="dropdown-item" href="#">SAN xLKTI</a></li>
+                                <li><a class="dropdown-item" href="#">ArchFest</a></li>
+                                <li><a class="dropdown-item" href="#">GADA</a></li>
+                                <li><a class="dropdown-item" href="#">ASF</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">TIMELINE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">MERCH</a>
-                    </li>
-                    <li class="nav-item dropdown navdrop">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            OUR EVENTS
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end mt-lg-3">
-                            <li><a class="dropdown-item" href="#">Sayembara Archiexpo 23</a></li>
-                            <li><a class="dropdown-item" href="#">SAN xLKTI</a></li>
-                            <li><a class="dropdown-item" href="#">ArchFest</a></li>
-                            <li><a class="dropdown-item" href="#">GADA</a></li>
-                            <li><a class="dropdown-item" href="#">ASF</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+
 </body>
 
 </html>
