@@ -13,6 +13,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
     <style>
+        
+        @font-face {
+            font-family: Baskerville;
+            src: url('assets/fonts/Baskerville Old Face.ttf');
+        }
+
+        .nav-link {
+            font-family: Baskerville;
+        }
+
+        .dropdown-item{
+            font-family: Baskerville;
+        }
+        
         .dropdown-menu {
             animation: showdropdown .5s linear;
         }
@@ -76,8 +90,8 @@
             box-shadow: none !important;
         }
 
-        .header{
-            margin-bottom: 100px ;
+        .header {
+            margin-bottom: 100px;
         }
     </style>
 </head>
