@@ -101,6 +101,17 @@
             </div>
         </div>
     </section>
+    
+    <section class="contact">
+        <?php
+        include('contact.php');
+        ?>
+    </section>
+
+    <section class="timeline">
+        <!-- blom -->
+    </section>
+
 </body>
 
 </html>
