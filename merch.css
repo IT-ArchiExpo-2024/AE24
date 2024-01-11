@@ -8,10 +8,6 @@
   src: url("assets/fonts/Baskerville Old Face.ttf");
 }
 
-body {
-    background-color: lightblue;
-}
-
 .merch {
   min-height: 80vh;
   text-align: center;
