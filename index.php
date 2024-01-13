@@ -41,6 +41,10 @@
             font-family: Baskerville;
         }
 
+        .tw {
+            color: white;
+        }
+
         .title {
             animation: fadeInAnimation ease 3s;
             animation-iteration-count: 1;
@@ -62,12 +66,28 @@
             padding-left: 20px;
         }
 
-        .home{
-            margin-bottom: 425px;
+        .about {
+            margin-bottom: 400px;
         }
 
-        body{
-            overflow-x: hidden;
+        @media screen and (min-width: 992px) {
+            .home {
+                margin-bottom: 850px;
+            }
+
+            body {
+                background: url('assets/bgwebsite_archiexpo.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                overflow-x: hidden !important;
+            }
+        }
+
+        @media screen and (max-width: 991.9px) {
+            body {
+                background: url('assets/bgwebsite_archiexpo.png');
+                background-position: top;
+            }
         }
     </style>
 </head>
@@ -75,7 +95,7 @@
 <body>
     <section class="home">
         <div>
-            <h1 class="title">
+            <h1 class="title pt-1 tw">
                 <span>The Journey to</span>
                 <br>
                 <span class="oasis">Oasis</span>
@@ -89,19 +109,24 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-12 d-flex align-items-center justify-content-center">
                 <h1 class="desc">
-                    <span class="subJudul">About Us</span>
+                    <span class="subJudul tw">About Us</span>
                 </h1>
             </div>
 
             <img src="assets/LOGO ARCHIEXPO.png" alt="LogoIc" class="col-7" style="width: 300px;">
             <div class="col-5 d-flex align-items-center justify-content-center ms-2">
-                <span class>
-                The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce unique, 
-                interesting and fascinating exhibition designs. This national level competition has been held year after 
-                year by HIMAARTRA. With the theme of this year's contest, "Human Needs in Dynamic Building: The Quest to 
-                Oasis”, the participants were invited to be aware of the importance of human-centered architecture in 
-                dynamic building design. In addition to the participants designing the exhibition, we want them to take 
-                home some important lessons that they can apply in each of their designs
+                <span class="keterangan tw">
+                    The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
+                    unique,
+                    interesting and fascinating exhibition designs. This national level competition has been held year
+                    after
+                    year by HIMAARTRA. With the theme of this year's contest, "Human Needs in Dynamic Building: The
+                    Quest to
+                    Oasis”, the participants were invited to be aware of the importance of human-centered architecture
+                    in
+                    dynamic building design. In addition to the participants designing the exhibition, we want them to
+                    take
+                    home some important lessons that they can apply in each of their designs
                 </span>
             </div>
         </div>

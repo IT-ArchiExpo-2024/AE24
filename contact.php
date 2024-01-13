@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARCHIEXPO 2024</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      
       <style>
         * {
             margin: 0;
@@ -13,12 +14,11 @@
         }
 
         .contactt {
-            display: flex;
-            height: 100vh;
+            /* height: 100vh; */
             text-align: center;
             align-items: center;
-            justify-content: space-evenly;
-            background: #262626;
+            justify-content: center;
+            /* background: #262626; */
             flex-direction: column;
         }
         .contact_title{
@@ -27,29 +27,29 @@
             font-size: 80px;
         }
 
-        #ull {
+        /* #ull {
             display: flex;
-        }
+        } */
 
-        #ull li {
-            position: relative;
+        #ull{
             display: flex;
+            justify-content: center;
+        }
+        #ull li{
+            position: relative;
+            display: block;
             color: #666;
-            font-size: 100px;
+            font-size: 30px;
+            height: 60px;
+            width: 60px;
             background: #171515;
-            width: 100px;
-            height: 500px;
             line-height: 60px;
-            border-top-right-radius: 45%;
-            border-top-left-radius: 45%;
-            margin: 0 10px;
+            border-radius: 50%;
+            margin: 0 15px;
             cursor: pointer;
             transition: .5s;
-            justify-content: center;
-            align-items: center;
         }
-
-        #ull li:before {
+        #ull li:before{
             position: absolute;
             content: '';
             top: 0;
@@ -111,6 +111,11 @@
             box-shadow: 0 0 15px #EEEEEE;
             text-shadow: 0 0 15px #EEEEEE;
         }
+        @media screen and (max-width: 991.9px) {
+            #ull{
+                transform: translateX(-12px);
+            }
+        }
 
       </style>
       
@@ -138,12 +143,13 @@
    <body>
     <div class="contactt">
         <h1 class="contact_title">Contact Us</h1>
-        <ul class="container-fluid" id="ull">
-            <li class="col"><i class="fab fa-line"></i></li>
-            <li class="col"><i class="fab fa-instagram"></i></li>
-            <li class="col"><i class="fab fa-tiktok"></i></li>
-            <!-- TO DO: buat supaya pas buka ke new page -->
+        <ul id="ull">
+            <li><i class="fab fa-line"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-tiktok"></i></li>
         </ul>
     </div>
    </body>
 </html>
+
+
