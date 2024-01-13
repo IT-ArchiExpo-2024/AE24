@@ -65,6 +65,10 @@
             margin-bottom: 400px;
         }
 
+        body{
+            overflow-x: hidden;
+        }
+
         @media screen and (min-width: 992px) {
             .home {
                 margin-bottom: 850px;
@@ -83,33 +87,37 @@
                 background: url('assets/bgwebsite_archiexpo.png');
                 background-position: top;
             }
-        }
+        } 
     </style>
 </head>
 
 <body>
     <section class="home">
         <div>
-            <h1 class="title pt-1 tw">
-                <span>The Journey to</span>
-                <br>
-                <span class="oasis">Oasis</span>
-                <br>
-                <span>- Archiexpo 24 -</span>
+            <h1 class="title tw">
+                <div class="col lg-12 md-4 sm-4">
+                    The Journey to
+                </div>
+                <div class="oasis col lg-12 md-4 sm-4">
+                    Oasis
+                </div>
+                <div class="col lg-12 md-4 sm-4">
+                    - Archiexpo 24 -
+                </div>
             </h1>
         </div>
     </section>
 
-    <section class="about">
-        <div class="row d-flex align-items-center justify-content-center">
+    <section class="about d-flex align-items-center justify-content-center">
+        <div class="row d-flex align-items-center justify-content-center w-75">
             <div class="col-12 d-flex align-items-center justify-content-center">
                 <h1 class="desc">
                     <span class="subJudul tw">About Us</span>
                 </h1>
             </div>
 
-            <img src="assets/LOGO ARCHIEXPO.png" alt="LogoIc" class="col-7" style="width: 300px;">
-            <div class="col-5 d-flex align-items-center justify-content-center ms-2">
+            <img src="assets/LOGO ARCHIEXPO.png" alt="LogoIc" class="col-lg-6 md-4" style="width: 300px; ">
+            <div class="col-lg-6 ms-3 md-8 d-flex align-items-center justify-content-center ms-2">
                 <span class="keterangan tw">
                     The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
                     unique,
@@ -130,7 +138,7 @@
     <section class="merch">
         <?php include "merch.php" ?>
     </section>
-
+    
 </body>
 
 </html>
