@@ -9,85 +9,85 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/LOGO ARCHIEXPO.png" />
 
     <style>
-        @font-face {
-            font-family: JustCosmic;
-            src: url('assets/fonts/Just Cosmic.otf');
+    @font-face {
+        font-family: JustCosmic;
+        src: url('assets/fonts/Just Cosmic.otf');
+    }
+
+    @font-face {
+        font-family: Aurora;
+        src: url('assets/fonts/Aurora.otf');
+    }
+
+    .title {
+        font-family: JustCosmic;
+        margin-left: 50px;
+    }
+
+    .judul {
+        font-family: JustComic;
+    }
+
+    .subJudul {
+        font-family: Aurora;
+    }
+
+    .keterangan {
+        font-family: Baskerville;
+    }
+
+    .tw {
+        color: white;
+    }
+
+    .title {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
         }
 
-        @font-face {
-            font-family: Aurora;
-            src: url('assets/fonts/Aurora.otf');
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .oasis {
+        font-size: 85px;
+        padding-left: 20px;
+    }
+
+    .about {
+        margin-bottom: 400px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    @media screen and (min-width: 992px) {
+        .home {
+            margin-bottom: 850px;
         }
 
-        .title {
-            font-family: JustCosmic;
-            margin-left: 50px;
+        body {
+            background: url('assets/bgwebsite_archiexpo.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow-x: hidden !important;
         }
+    }
 
-        .judul {
-            font-family: JustComic;
+    @media screen and (max-width: 991.9px) {
+        body {
+            background: url('assets/bgwebsite_archiexpo.png');
+            background-position: top;
         }
-
-        .subJudul {
-            font-family: Aurora;
-        }
-
-        .keterangan {
-            font-family: Baskerville;
-        }
-
-        .tw {
-            color: white;
-        }
-
-        .title {
-            animation: fadeInAnimation ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        .oasis {
-            font-size: 85px;
-            padding-left: 20px;
-        }
-
-        .about {
-            margin-bottom: 400px;
-        }
-
-        body{
-            overflow-x: hidden;
-        }
-
-        @media screen and (min-width: 992px) {
-            .home {
-                margin-bottom: 850px;
-            }
-
-            body {
-                background: url('assets/bgwebsite_archiexpo.png');
-                background-size: cover;
-                background-repeat: no-repeat;
-                overflow-x: hidden !important;
-            }
-        }
-
-        @media screen and (max-width: 991.9px) {
-            body {
-                background: url('assets/bgwebsite_archiexpo.png');
-                background-position: top;
-            }
-        } 
+    }
     </style>
 </head>
 
@@ -136,9 +136,13 @@
     </section>
 
     <section class="merch">
+        <?php include "san_lkti_archifest.php" ?>
+    </section>
+
+    <section class="merch">
         <?php include "merch.php" ?>
     </section>
-    
+
 </body>
 
 </html>
