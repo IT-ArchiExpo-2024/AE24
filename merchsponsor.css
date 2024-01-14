@@ -9,7 +9,8 @@
 }
 
 body {
-    background-color: lightblue;
+  background-color: lightblue !important;
+  overflow-x: hidden !important;
 }
 
 .merch {
@@ -18,7 +19,7 @@ body {
 }
 
 .merch-header {
-  font-weight: 800;
+  font-weight: 800 !important;
   font-family: Aurora;
   margin-top: 50px;
 }
@@ -42,6 +43,7 @@ body {
   width: 300px;
   height: 400px;
   border-radius: 50%;
+  border: none;
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   flex-direction: column;
@@ -93,7 +95,7 @@ body {
 }
 
 .order-button:hover {
-    background-color: black;
+  background-color: black;
 }
 
 .swiper-button-prev,
@@ -121,5 +123,57 @@ body {
     background-color: transparent;
     width: 30px;
     height: 50px;
+  }
+}
+
+#carouselExampleAutoplaying {
+  width: 420px !important;
+  height: 320px !important;
+  border-radius: 15px;
+  background: #1c1a42;
+  margin: 4rem auto;
+  padding: 0.4rem;
+}
+
+.carousel-item img {
+  width: 400px !important;
+  height: 300px !important;
+  margin: 0 auto !important;
+}
+
+@media screen and (max-width: 500px) {
+  #carouselExampleAutoplaying {
+    width: 380px !important;
+    height: 290px !important;
+    padding: 0.2rem;
+  }
+
+  .carousel-item img {
+    width: 360px !important;
+    height: 270px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #carouselExampleAutoplaying {
+    width: 300px !important;
+    height: 230px !important;
+  }
+
+  .carousel-item img {
+    width: 280px !important;
+    height: 210px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #carouselExampleAutoplaying {
+    width: 260px !important;
+    height: 200px !important;
+  }
+
+  .carousel-item img {
+    width: 240px !important;
+    height: 180px !important;
   }
 }
