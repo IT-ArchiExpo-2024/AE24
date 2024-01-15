@@ -97,7 +97,7 @@
             display: flex;
             justify-content: space-between;
         }
-        .w3-bar *{
+        .w3-bar-item{
             background-color: grey;
             min-width: 20%;
             height: 140px;
@@ -105,7 +105,9 @@
             border-top-left-radius: 20%;
         }
         .smol_logo{
-            height: 100px;
+            max-height: 120px;
+            max-width: 300px;
+            object-fit: contain;
         }
         .w3-button{
             display: flex;
@@ -118,7 +120,8 @@
                 text-align: center;
             }
             .smol_logo{
-                height: 40px;
+                max-height: 70px;
+                max-width: 100px;
                 transform: translateX(-5px);
             }
             .row2{
@@ -136,15 +139,16 @@
 
             }
         }
-        @media screen and (max-width: 337px) {
+        @media screen and (max-width: 400px) {
             .w3-bar *{
                 height: 60px;
                 min-width: 20%;
                 text-align: center;
             }
             .smol_logo{
-                height: 30px;
-                transform: translateX(-8px);
+                max-height: 50px;
+                max-width: 40px;
+                /* transform: scale(1.3, 1.3); */
             }
         }
     </style>
@@ -196,40 +200,40 @@
 
             <div class="w3-bar">
             <button class="w3-bar-item w3-button" onclick="openCity('xAE24')">
-                <img class="smol_logo" src="assets/LOGO ARCHIEXPO.png" alt=""></button>
+                <img class="smol_logo" src="assets/logo/LOGO ARCHIEXPO.png" alt=""></button>
             <button class="w3-bar-item w3-button" onclick="openCity('xLKTI')">
-                <img class="smol_logo" src="assets/LOGO ARCHIEXPO.png" alt=""></button>
+                <img class="smol_logo" src="assets/logo/LOGO SANXLKTI.png" alt=""></button>
             <button class="w3-bar-item w3-button" onclick="openCity('xFEST')">
-                <img class="smol_logo" src="assets/LOGO ARCHIEXPO.png" alt=""></button>
+                <img class="smol_logo" src="assets/logo/LOGO ARCHFEST.png" alt=""></button>
             <button class="w3-bar-item w3-button" onclick="openCity('xGADA')">
-                <img class="smol_logo" src="assets/LOGO ARCHIEXPO.png" alt=""></button>
+                <img class="smol_logo" style="transform: scale(2, 2);" src="assets/logo/LOGO GADA.png" alt=""></button>
             <button class="w3-bar-item w3-button" onclick="openCity('xASF')">
-                <img class="smol_logo" src="assets/LOGO ARCHIEXPO.png" alt=""></button>
+                <img class="smol_logo" src="assets/logo/LOGO ASF.png" alt=""></button>
             </div>
 
             <div id="xAE24" class="city">
             <h2>xAE24</h2>
-            <p>xAE24 is the capital of England.</p>
+            <p>To Be Announced</p>
             </div>
 
             <div id="xLKTI" class="city" style="display:none">
             <h2>xLKTI</h2>
-            <p>xLKTI is the capital of France.</p>
+            <p>To Be Announced</p>
             </div>
 
             <div id="xFEST" class="city" style="display:none">
             <h2>xFEST</h2>
-            <p>xFEST is the capital of Japan.</p>
+            <p>To Be Announced</p>
             </div>
 
             <div id="xGADA" class="city" style="display:none">
             <h2>xGADA</h2>
-            <p>xGADA is the capital of Japan.</p>
+            <p>To Be Announced</p>
             </div>
 
             <div id="xASF" class="city" style="display:none">
             <h2>xASF</h2>
-            <p>xASF is the capital of Japan.</p>
+            <p>To Be Announced</p>
             </div>
 
 </body>
