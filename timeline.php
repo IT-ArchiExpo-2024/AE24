@@ -17,16 +17,21 @@
         class Detos {
             constructor() {
                 // list tanggalnya timeline
-                this.datess = ["Jan 10, 2024 23:59:59", "Jan 13, 2024 22:47:59", "Jan 15, 2024 23:59:59"];
+                this.datess = ["Jan 19, 2024 0:00:00", "Jan 23, 2024 0:00:00", "Jan 31, 2024 0:00:00", "Feb 1, 2024 0:00:00", "Feb 28, 2024 0:00:00", "Feb 29, 2024 0:00:00", "Mar 3, 2024 0:00:00", "Mar 7, 2024 0:00:00", "Mar 8, 2024 0:00:00", "Mar 12, 2024 0:00:00", "Mar 15, 2024 0:00:00", "Mar 19, 2024 0:00:00", "Mar 21, 2024 0:00:00", "Mar 23, 2024 0:00:00", "Mar 30, 2024 0:00:00", "Apr 5, 2024 0:00:00", "Apr 8, 2024 0:00:00", "May 3, 2024 0:00:00", "May 17, 2024 0:00:00", "May 18, 2024 0:00:00", "May 19, 2024 0:00:00"];
+                this.eventss = ["Early Bird Registration of SANxLKTI, ArchFest, ASF, and GADA", "Abstract Online Submission of SANxLKTI", "Early Bird Registration Closing of SANxLKTI, ArchFest, ASF, and GADA", "Normal Registration of SANxLKTI, ArchFest, ASF, and GADA", "Normal Registration Closing and Abstract Online Submission Closing of SANxLKTI ", "Normal Registration Closing of 17th ArchFest and GADA", "Normal Architectural Sketch Fair Registration Closing", "Abstract Round Passing Announcement of SANxLKTI", "Full Paper Online Submission of SANxLKTI and Close Assessment  17th ArchFest", "Top 15 Announcement 17th Architecture Festival", "Top 5  Announcement 17th ArchFest and Closed Assessment GADA 2024", "Top 20 Announcement Geest Van De Architectuur 2024", "Top 5 Announcement Geest Van De Architectuur 2024", "Final Presentation 17th Architecture Festival", "Final Presentation GADA 2024 and Full Paper Online Submission Closing of SANxLKTI", "Top 3 Announcement Geest Van De Architectuur 2024", "Top 5 Announcement of SANxLKTI", "Final Presentation of SANxLKTI", "Winner Announcement of SANxLKTI and 17th ArchFest", "Winner Announcement of SANxLKTI and 17th ArchFest", "Winner Announcement of SANxLKTI and 17th ArchFest"];
             }
             latest() {
                 return this.datess[counter];
+            }
+            latest_event() {
+                return this.eventss[counter];
             }
         }
         function setDate(dateString){
             // Jan 5, 2024 15:37:25
             // Set the date we're counting down to
             var countDownDate = new Date(dateString.latest()).getTime();
+            document.getElementById("eventss").innerHTML = dateString.latest_event();
             // Update the count down every 1 second
             var x = setInterval(function() {
 
@@ -42,6 +47,7 @@
                     // document.getElementsByClassName("day").innerHTML = "EXPIRED";
                     counter++;
                     countDownDate = new Date(dateString.latest()).getTime();
+                    document.getElementById("eventss").innerHTML = dateString.latest_event();
                 }
             
                 // Time calculations for days, hours, minutes and seconds
@@ -61,6 +67,7 @@
 
     </script>
     <style>
+        
         .timeline {
             text-align: center;
             font-family: JustCosmic; 
@@ -69,9 +76,9 @@
             flex-direction: column;
             align-items: space-between;
             justify-content: center;
-            height: 100vh;
         }
         .timeline_title{
+            color: white;
             font-size: 80px;
         }
         .countdownn{
@@ -79,6 +86,7 @@
             font-family: Aurora;
             font-size: 90px;
             display: flex;
+            color: white;
             flex-direction: column;
             align-items: center;
             justify-content: space-evenly;
@@ -113,6 +121,34 @@
             display: flex;
             justify-content: center;
         }
+        .event_placeholder{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        #eventss{
+            font-size: 30px;
+            margin: 10px 10px;
+        }
+        .bgbgbg{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+        .biru_gelap{
+            background-color: #00243D;
+            color: white;
+        }
+        .biru_muda{
+            background-color: #68A7C5;
+        }
+        .test{
+            background-color: black;
+            width: 1400px;
+        }
+        
         @media screen and (max-width: 991.9px) {
             .w3-bar *{
                 height: 80px;
@@ -182,6 +218,12 @@
                 <p class="row row2">Seconds</p>
             </span>
         </div>
+
+        <div class="event_placeholder">
+            <div class="bgbgbg">
+                <p id="eventss">testo</p> 
+            </div>
+        </div>
     
         <script>
             dettt = new Detos();
@@ -199,41 +241,41 @@
         </script>
 
             <div class="w3-bar">
-            <button class="w3-bar-item w3-button" onclick="openCity('xAE24')">
+            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xAE24')">
                 <img class="smol_logo" src="assets/logo/LOGO ARCHIEXPO.png" alt=""></button>
-            <button class="w3-bar-item w3-button" onclick="openCity('xLKTI')">
+            <button class="w3-bar-item w3-button biru_muda" onclick="openCity('xLKTI')">
                 <img class="smol_logo" src="assets/logo/LOGO SANXLKTI.png" alt=""></button>
-            <button class="w3-bar-item w3-button" onclick="openCity('xFEST')">
+            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xFEST')">
                 <img class="smol_logo" src="assets/logo/LOGO ARCHFEST.png" alt=""></button>
-            <button class="w3-bar-item w3-button" onclick="openCity('xGADA')">
+            <button class="w3-bar-item w3-button biru_muda" onclick="openCity('xGADA')">
                 <img class="smol_logo" style="transform: scale(2, 2);" src="assets/logo/LOGO GADA.png" alt=""></button>
-            <button class="w3-bar-item w3-button" onclick="openCity('xASF')">
+            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xASF')">
                 <img class="smol_logo" src="assets/logo/LOGO ASF.png" alt=""></button>
             </div>
 
-            <div id="xAE24" class="city">
+            <div id="xAE24" class="city biru_gelap">
             <h2>xAE24</h2>
             <p>To Be Announced</p>
             </div>
 
-            <div id="xLKTI" class="city" style="display:none">
-            <h2>xLKTI</h2>
-            <p>To Be Announced</p>
+            <div id="xLKTI" class="city biru_muda" style="display:none">
+            <h1>SANxLKTI</h1>
+            <img src="assets/timelines/TimelineLKTI.png" alt="">
             </div>
 
-            <div id="xFEST" class="city" style="display:none">
+            <div id="xFEST" class="city biru_gelap" style="display:none">
             <h2>xFEST</h2>
             <p>To Be Announced</p>
             </div>
 
-            <div id="xGADA" class="city" style="display:none">
+            <div id="xGADA" class="city biru_muda" style="display:none">
             <h2>xGADA</h2>
             <p>To Be Announced</p>
             </div>
 
-            <div id="xASF" class="city" style="display:none">
-            <h2>xASF</h2>
-            <p>To Be Announced</p>
+            <div id="xASF" class="city biru_gelap" style="display:none">
+            <h1>Architectural Sketch Fair (ASF)</h1>
+            <img src="assets/timelines/TimelineASF.png" alt="">
             </div>
 
 </body>
