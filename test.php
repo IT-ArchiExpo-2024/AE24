@@ -62,71 +62,112 @@
 
     /* besar */
     @media screen and (min-width: 1921px) {
+
         body {
-            background: url('assets/bgwebsite_archiexpo.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            overflow-x: hidden !important;
+            background: rgb(55, 150, 141);
+            background: linear-gradient(142deg, rgba(55, 150, 141, 1) 100%, rgba(70, 171, 153, 1) 100%);
         }
 
-        .header {
-            margin-bottom: 100px;
+        .journey {
+            background-repeat: no-repeat;
+            padding-top: 100px;
         }
 
         .home {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Home.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .maskot {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Maskot.png");
             min-height: 829px;
+            background-position: top;
             text-align: end;
 
 
         }
 
         .about {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_About.png");
             min-height: 829px;
+            background-position: top;
+
+
         }
 
         .expo {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Expo.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .sanLKTI {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_sanLKTI.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .archifest {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_ArchiFest.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .gada {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Gada.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .asf {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_ASF.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .countdown {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Timeline.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .timeline {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Timeline2.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .kontak {
-            min-height: 100px;
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Kontak.png");
+            min-height: 290px;
+            background-position: top;
         }
 
         .merchs {
+            background-repeat: no-repeat;
             max-height: 829px;
+            background-image: url("assets/bg/AE_Kontak.png");
             min-height: 829px;
+            background-position: top;
         }
 
         .endsponsor {
+            background-repeat: no-repeat;
+            background-image: url("assets/bg/AE_Sponsor.png");
             min-height: 829px;
+            background-position: top;
         }
     }
 
@@ -240,6 +281,7 @@
             min-height: 829px;
             background-position: top;
             text-align: center;
+            !important
         }
 
         .about {
@@ -405,15 +447,17 @@
     </section>
 
     <section class="timeline" id="timeline">
-    </section>
-
-    <section class="kontak" id="kontak" style="padding-top: 7vh;">
-        <?php include "contact.php" ?>
+        
     </section>
 
     <section class="merchs" id="merchs">
         <?php include "merch.php" ?>
     </section>
+
+    <section class="kontak" id="kontak" >
+        <?php include "contact.php" ?>
+    </section>
+
 
     <section class="endsponsor" id="endsponsor">
         <?php include "sponsor.php" ?>

@@ -86,11 +86,11 @@
             box-shadow: 0 0 15px #27ff3d;
         }
 
-        #ull li:nth-child(2):hover:before {
+        #ull li:nth-child(3):hover:before {
             box-shadow: 0 0 15px #E1306C;
         }
 
-        #ull li:nth-child(3):hover:before {
+        #ull li:nth-child(5):hover:before {
             box-shadow: 0 0 15px #EEEEEE;
         }
 
@@ -100,13 +100,13 @@
             text-shadow: 0 0 15px #27ff3d;
         }
 
-        #ull li:nth-child(2):hover {
+        #ull li:nth-child(3):hover {
             color: #e23670;
             box-shadow: 0 0 15px #E1306C;
             text-shadow: 0 0 15px #E1306C;
         }
 
-        #ull li:nth-child(3):hover {
+        #ull li:nth-child(5):hover {
             color: #EFEFEF;
             box-shadow: 0 0 15px #EEEEEE;
             text-shadow: 0 0 15px #EEEEEE;
@@ -149,7 +149,11 @@
         <h1 class="contact_title">Contact Us</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
+            <li style="opacity: 0;"></li>
+
             <li><i class="fab fa-instagram"></i></li>
+            <li style="opacity: 0;"></li>
+
             <li><i class="fab fa-tiktok"></i></li>
         </ul>
     </div>
