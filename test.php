@@ -117,7 +117,7 @@
         }
 
         .kontak {
-            min-height: 829px;
+            min-height: 100px;
         }
 
         .merchs {
@@ -203,7 +203,7 @@
 
         .kontak {
             background-image: url("assets/bg/AE_Kontak.png");
-            min-height: 829px;
+            min-height: 290px;
             background-position: top;
         }
 
@@ -295,7 +295,7 @@
 
         .kontak {
             background-image: url("assets/bg/AE_Kontak.png");
-            min-height: 829px;
+            min-height: 100px;
             background-position: top;
         }
 
@@ -406,15 +406,13 @@
     </section>
 
     <section class="timeline" id="timeline">
-
     </section>
 
-    <section class="kontak" id="kontak">
-
+    <section class="kontak" id="kontak" style="padding-top: 7vh;">
+        <?php include "contact.php" ?>
     </section>
 
     <section class="merchs" id="merchs">
-
     </section>
 
     <section class="endsponsor" id="endsponsor">
