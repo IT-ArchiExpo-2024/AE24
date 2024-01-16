@@ -120,6 +120,11 @@
             min-height: 829px;
         }
 
+        .merchs{
+            max-height: 829px;
+            min-height: 829px;
+        }
+
         .endsponsor {
             min-height: 829px;
         }
@@ -197,6 +202,13 @@
         }
 
         .kontak {
+            background-image: url("assets/bg/AE_Kontak.png");
+            min-height: 829px;
+            background-position: top;
+        }
+
+        .merchs{
+            max-height: 829px;
             background-image: url("assets/bg/AE_Kontak.png");
             min-height: 829px;
             background-position: top;
@@ -286,6 +298,13 @@
             background-position: top;
         }
 
+        .merchs{
+            max-height: 829px;
+            background-image: url("assets/bg/AE_Kontak.png");
+            min-height: 829px;
+            background-position: top;
+        }
+
         .endsponsor {
             background-image: url("assets/bg/AE_Sponsor.png");
             min-height: 829px;
@@ -293,13 +312,13 @@
         }
     }
 
-    @media screen and (min-width: 549px) {
+    @media screen and (min-width: 653px) {
         .title{
-            font-size: 75px;
+            font-size: 50px;
         }
     }
 
-    @media screen and (max-width: 548.9px) {
+    @media screen and (max-width: 652.9px) {
         .title{
             font-size: 40px;
         }
@@ -315,13 +334,13 @@
         <div>
             <h1 class="title tw">
                 <div class="journey col">
-                    The Journey to
+                    THE JOURNEY TO
                 </div>
                 <div class="oasis col">
-                    Oasis
+                    OASIS
                 </div>
                 <div class="col">
-                    - Archiexpo 24 -
+                    - ARCHIEXPO 24 -
                 </div>
             </h1>
         </div>
@@ -392,6 +411,10 @@
 
     <section class="kontak">
 
+    </section>
+
+    <section class="merchs">
+        
     </section>
 
     <section class="endsponsor">
