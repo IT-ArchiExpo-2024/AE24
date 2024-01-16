@@ -16,8 +16,8 @@
 </head>
 
 <body>
-    <div class="container header-container text-center mt-4">
-        <h1 class="display-3 merch-header">SPONSOR</h1>
+    <div class="container header-container text-center py-4">
+        <h1 class="display-3 merch-header text-white pt-4">SPONSOR</h1>
     </div>
 
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">

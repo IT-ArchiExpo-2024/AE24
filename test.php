@@ -240,7 +240,6 @@
             min-height: 829px;
             background-position: top;
             text-align: center;
-            !important
         }
 
         .about {
@@ -413,11 +412,11 @@
     </section>
 
     <section class="merchs" id="merchs">
-        <?php// include "merch.php" ?>
+        <?php include "merch.php" ?>
     </section>
 
     <section class="endsponsor" id="endsponsor">
-        <?php// include "sponsor.php" ?>
+        <?php include "sponsor.php" ?>
     </section>
 </body>
 

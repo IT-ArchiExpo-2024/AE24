@@ -20,7 +20,7 @@
 
 <body>
     <section class="merch" id="merch">
-        <div class="container header-container text-center mt-4">
+        <div class="container header-container text-center text-white p-4">
             <h1 class="display-3 merch-header">OUR MERCH!</h1>
         </div>
 
@@ -28,7 +28,7 @@
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="card">
+                        <div class="card card-merch">
                             <div class="card-content">
                                 <div class="card-image"><img src="assets/img/dress.png" alt=""></div>
                                 <div class="card-price display-6">Rp15.000</div>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="card">
+                        <div class="card card-merch">
                             <div class="card-content">
                                 <div class="card-image"><img src="assets/img/baju.webp" alt=""></div>
                                 <div class="card-price display-6">Rp12.000</div>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="card">
+                        <div class="card card-merch">
                             <div class="card-content">
                                 <div class="card-image"><img src="assets/img/batman.png" alt=""></div>
                                 <div class="card-price display-6">Rp18.000</div>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="card">
+                        <div class="card card-merch">
                             <div class="card-content">
                                 <div class="card-image"><img src="assets/img/kuning.png" alt=""></div>
                                 <div class="card-price display-6">Rp24.000</div>

@@ -9,14 +9,17 @@
 }
 
 .merch {
-  min-height: 80vh;
   text-align: center;
+}
+
+.header-container {
+  min-height: 50px;
+  max-height: 200px;
 }
 
 .merch-header {
   font-weight: 800 !important;
   font-family: Aurora;
-  margin-top: 50px;
 }
 
 .swiper-container {
@@ -33,16 +36,16 @@
   height: 500px;
 }
 
-.card {
-  overflow: hidden;
-  width: 300px;
-  height: 400px;
-  border-radius: 50%;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: column;
-  position: relative;
+.card-merch {
+  overflow: hidden !important;
+  width: 300px !important;
+  height: 400px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
 }
 
 .card-content {
@@ -80,17 +83,18 @@
 }
 
 .order-button {
-  font-size: 1.3rem;
-  border-radius: 3px;
-  font-weight: 800;
-  background-color: white;
-  color: black;
-  border: none;
-  font-family: Baskerville;
+  font-size: 1.3rem !important;
+  border-radius: 3px !important;
+  font-weight: 800 !important;
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  font-family: Baskerville !important;
 }
 
 .order-button:hover {
-  background-color: black;
+  background-color: black !important;
+  color: white !important; 
 }
 
 .swiper-button-prev,
@@ -126,8 +130,7 @@
   height: 320px !important;
   border-radius: 15px;
   background: #1c1a42;
-  margin: 4rem auto;
-  padding: 0.4rem;
+  margin: 0.5rem auto;
 }
 
 .carousel-item img {
