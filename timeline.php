@@ -67,6 +67,7 @@
 
     </script>
     <style>
+        
         .timeline {
             text-align: center;
             font-family: JustCosmic; 
@@ -75,9 +76,9 @@
             flex-direction: column;
             align-items: space-between;
             justify-content: center;
-            height: 100vh;
         }
         .timeline_title{
+            color: white;
             font-size: 80px;
         }
         .countdownn{
@@ -85,6 +86,7 @@
             font-family: Aurora;
             font-size: 90px;
             display: flex;
+            color: white;
             flex-direction: column;
             align-items: center;
             justify-content: space-evenly;
@@ -142,6 +144,11 @@
         .biru_muda{
             background-color: #68A7C5;
         }
+        .test{
+            background-color: black;
+            width: 1400px;
+        }
+        
         @media screen and (max-width: 991.9px) {
             .w3-bar *{
                 height: 80px;
@@ -252,8 +259,8 @@
             </div>
 
             <div id="xLKTI" class="city biru_muda" style="display:none">
-            <h2>xLKTI</h2>
-            <p>To Be Announced</p>
+            <h1>SANxLKTI</h1>
+            <img src="assets/timelines/TimelineLKTI.png" alt="">
             </div>
 
             <div id="xFEST" class="city biru_gelap" style="display:none">
@@ -267,8 +274,8 @@
             </div>
 
             <div id="xASF" class="city biru_gelap" style="display:none">
-            <h2>xASF</h2>
-            <p>To Be Announced</p>
+            <h1>Architectural Sketch Fair (ASF)</h1>
+            <img src="assets/timelines/TimelineASF.png" alt="">
             </div>
 
 </body>
