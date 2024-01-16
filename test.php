@@ -61,7 +61,7 @@
     }
 
     /* besar */
-    @media screen and (min-width: 1921px) { 
+    @media screen and (min-width: 1921px) {
         body {
             background: url('assets/bgwebsite_archiexpo.png');
             background-size: cover;
@@ -120,7 +120,7 @@
             min-height: 829px;
         }
 
-        .merchs{
+        .merchs {
             max-height: 829px;
             min-height: 829px;
         }
@@ -207,7 +207,7 @@
             background-position: top;
         }
 
-        .merchs{
+        .merchs {
             max-height: 829px;
             background-image: url("assets/bg/AE_Kontak.png");
             min-height: 829px;
@@ -221,7 +221,7 @@
         }
     }
 
-    
+
     /* kecil */
     @media screen and (max-width: 991.9px) {
 
@@ -239,7 +239,8 @@
             background-image: url("assets/bg/AE_Maskot.png");
             min-height: 829px;
             background-position: top;
-            text-align: center; !important
+            text-align: center;
+            !important
         }
 
         .about {
@@ -298,7 +299,7 @@
             background-position: top;
         }
 
-        .merchs{
+        .merchs {
             max-height: 829px;
             background-image: url("assets/bg/AE_Kontak.png");
             min-height: 829px;
@@ -313,17 +314,16 @@
     }
 
     @media screen and (min-width: 653px) {
-        .title{
+        .title {
             font-size: 50px;
         }
     }
 
     @media screen and (max-width: 652.9px) {
-        .title{
+        .title {
             font-size: 40px;
         }
     }
-
 </style>
 
 <body>
@@ -389,12 +389,12 @@
 
     </section>
 
-    <section class="sanLKTI">
-
+    <section class="sanLKTI" style="padding-top: 10vh;">
+        <?php include "san_lkti.php" ?>
     </section>
 
-    <section class="archifest">
-
+    <section class="archifest" style="padding-top: 20vh;">
+        <?php include "archifest.php" ?>
     </section>
 
     <section class="gada">
@@ -414,7 +414,7 @@
     </section>
 
     <section class="merchs">
-        
+
     </section>
 
     <section class="endsponsor">
