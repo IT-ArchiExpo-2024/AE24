@@ -36,8 +36,15 @@
                 in dynamic building design. In addition to the participants designing the exhibition, we want them to
                 take home some important lessons that they can apply in each of their designs
             </span>
-            <div class="mt-3">
-                <button class="btn custom-button-sla">Register Now</button>
+            <div class="dropdown pt-3">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    MORE INFO
+                </button>
+                <ul class="dropdown-menu dropdown-menu-secondary">
+                    <li><a class="dropdown-item" href="#">REGIST NOW</a></li>
+                    <li><a class="dropdown-item" href="#">TIMELINE & CONTACT</a></li>
+                </ul>
             </div>
         </div>
     </div>

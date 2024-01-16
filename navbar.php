@@ -116,16 +116,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link text-white" aria-current="page" href="#home">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">ABOUT US</a>
+                            <a class="nav-link text-white" href="#about">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">TIMELINE</a>
+                            <a class="nav-link text-white" href="#timeline">TIMELINE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">MERCH</a>
+                            <a class="nav-link text-white" href="#merchs">MERCH</a>
                         </li>
                         <li class="nav-item dropdown navdrop">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -134,10 +134,10 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end mt-lg-3">
                                 <li><a class="dropdown-item" href="#">Sayembara Archiexpo 23</a></li>
-                                <li><a class="dropdown-item" href="#">SAN xLKTI</a></li>
-                                <li><a class="dropdown-item" href="#">ArchFest</a></li>
-                                <li><a class="dropdown-item" href="#">GADA</a></li>
-                                <li><a class="dropdown-item" href="#">ASF</a></li>
+                                <li><a class="dropdown-item" href="#sanLKTI">SAN xLKTI</a></li>
+                                <li><a class="dropdown-item" href="#archifest">ArchFest</a></li>
+                                <li><a class="dropdown-item" href="#gada">GADA</a></li>
+                                <li><a class="dropdown-item" href="#asf">ASF</a></li>
                             </ul>
                         </li>
                     </ul>

@@ -330,7 +330,7 @@
 
     <?php include "navbar.php" ?>
 
-    <section class="home">
+    <section class="home" id="home">
         <div>
             <h1 class="title tw">
                 <div class="journey col">
@@ -354,7 +354,7 @@
         </div>
     </section>
 
-    <section class="about d-flex align-items-center  justify-content-center">
+    <section class="about d-flex align-items-center justify-content-center" id="about">
         <div class="row d-flex align-items-center justify-content-center w-75">
             <div class="col-12 d-flex align-items-center justify-content-center">
                 <h1 class="desc">
@@ -385,39 +385,39 @@
         </div>
     </section>
 
-    <section class="expo">
+    <section class="expo" id="expo">
 
     </section>
 
-    <section class="sanLKTI" style="padding-top: 10vh;">
+    <section class="sanLKTI" id="sanLKTI" style="padding-top: 10vh;">
         <?php include "san_lkti.php" ?>
     </section>
 
-    <section class="archifest" style="padding-top: 20vh;">
+    <section class="archifest" id="archifest" style="padding-top: 20vh;">
         <?php include "archifest.php" ?>
     </section>
 
-    <section class="gada">
+    <section class="gada" id="gada" style="padding-top: 20vh;">
+        <?php include "gada.php" ?>
+    </section>
+
+    <section class="asf" id="asf" style="padding-top: 20vh;">
+        <?php include "asf.php" ?>
+    </section>
+
+    <section class="timeline" id="timeline">
 
     </section>
 
-    <section class="asf">
+    <section class="kontak" id="kontak">
 
     </section>
 
-    <section class="timeline">
+    <section class="merchs" id="merchs">
 
     </section>
 
-    <section class="kontak">
-
-    </section>
-
-    <section class="merchs">
-
-    </section>
-
-    <section class="endsponsor">
+    <section class="endsponsor" id="endsponsor">
 
     </section>
 </body>
