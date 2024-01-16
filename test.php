@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ARCHIEXPO 2024</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/LOGO ARCHIEXPO.png" />
 </head>
 
 <style>
@@ -230,12 +231,6 @@
             background-position: top;
         }
 
-        .countdown {
-            background-image: url("assets/bg/AE_Timeline.png");
-            min-height: 829px;
-            background-position: top;
-        }
-
         .timeline {
             background-image: url("assets/bg/AE_Timeline2.png");
             min-height: 829px;
@@ -268,6 +263,11 @@
 
         .journey {
             padding-top: 150px;
+        }
+
+        .title{
+            margin-left: 0px;
+            text-align: center;
         }
 
         .home {
@@ -365,6 +365,20 @@
             font-size: 40px;
         }
     }
+
+    ::-webkit-scrollbar{
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track{
+        /* background: #d1e5ff; */
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(#2B7870,#BAEDE4);
+        border-radius: 10px;
+        height: 100px;
+    }
 </style>
 
 <body>
@@ -426,8 +440,40 @@
         </div>
     </section>
 
-    <section class="expo" id="expo">
+    <section class="expo" id="expo" style="padding-top: 30vh;">
+        <div class="row d-flex align-items-center justify-content-start w-75 mx-auto">
+            <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
+                <h1 class="desc">
+                    <span class="subJudul tw">ArchiExpo Exhibition Competition</span>
+                </h1>
+            </div>
 
+            <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
+                <span class="keterangan tw">
+                    The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
+                    unique, interesting and fascinating exhibition designs. This national level competition has been
+                    held
+                    year
+                    after year by HIMAARTRA. With the theme of this year's contest, "Human Needs in Dynamic Building:
+                    The
+                    Quest to Oasis”, the participants were invited to be aware of the importance of human-centered
+                    architecture
+                    in dynamic building design. In addition to the participants designing the exhibition, we want them
+                    to
+                    take home some important lessons that they can apply in each of their designs
+                </span>
+                <div class="dropdown pt-3">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        MORE INFO
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-secondary">
+                        <li><a class="dropdown-item" href="#">REGIST NOW</a></li>
+                        <li><a class="dropdown-item" href="#">TIMELINE & CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="sanLKTI" id="sanLKTI" style="padding-top: 10vh;">
@@ -447,17 +493,16 @@
     </section>
 
     <section class="timeline" id="timeline">
-        
+        <?php include "timeline.php" ?>
     </section>
 
-    <section class="merchs" id="merchs">
-        <?php include "merch.php" ?>
-    </section>
-
-    <section class="kontak" id="kontak" >
+    <section class="kontak" id="kontak" style="padding-top: 12vh">
         <?php include "contact.php" ?>
     </section>
 
+    <section class="merchs" id="merchs" style="padding-top: 10vh">
+        <?php include "merch.php" ?>
+    </section>
 
     <section class="endsponsor" id="endsponsor">
         <?php include "sponsor.php" ?>
