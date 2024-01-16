@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ARCHIEXPO 2024</title>
 
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-    <link href="merch.css" rel="stylesheet">
+    <link href="merchsponsor.css" rel="stylesheet">
 
 </head>
 
 <body>
     <section class="merch" id="merch">
         <div class="container header-container text-center mt-4">
-            <h1 class="display-1 merch-header">OUR MERCH!</h1>
+            <h1 class="display-3 merch-header">OUR MERCH!</h1>
         </div>
 
         <div class="swiper-container container mt-4">

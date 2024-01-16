@@ -413,10 +413,11 @@
     </section>
 
     <section class="merchs" id="merchs">
+        <?php// include "merch.php" ?>
     </section>
 
     <section class="endsponsor" id="endsponsor">
-
+        <?php// include "sponsor.php" ?>
     </section>
 </body>
 
