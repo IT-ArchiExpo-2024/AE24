@@ -86,7 +86,7 @@
             background-image: url("assets/bg/AE_Maskot.png");
             min-height: 829px;
             background-position: top;
-            text-align: end;
+            text-align: center;
 
 
         }
@@ -444,7 +444,9 @@
         <div class="row d-flex align-items-center justify-content-start w-75 mx-auto">
             <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
                 <h1 class="desc">
-                    <span class="subJudul tw">ArchiExpo Exhibition Competition</span>
+                    <span class="subJudul tw">ArchiExpo Exhibition</span>
+                    <br>
+                    <span class="subJudul tw">Competition</span>
                 </h1>
             </div>
 
