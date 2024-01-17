@@ -105,6 +105,7 @@
             background-image: url("assets/bg/AE_Expo.png");
             min-height: 829px;
             background-position: top;
+            padding-top: 20vh; !important
         }
 
         .sanLKTI {
@@ -190,14 +191,14 @@
             background-image: url("assets/bg/AE_About.png");
             min-height: 829px;
             background-position: top;
-
-
         }
 
         .expo {
             background-image: url("assets/bg/AE_Expo.png");
             min-height: 829px;
             background-position: top;
+            padding-top: 30vh; !important
+
         }
 
         .sanLKTI {
@@ -254,6 +255,10 @@
     /* kecil */
     @media screen and (max-width: 991.9px) {
 
+        .LogoIC{
+            padding-bottom: 5vh;
+        }
+
         .journey {
             padding-top: 150px;
         }
@@ -289,6 +294,7 @@
             background-image: url("assets/bg/AE_Expo.png");
             min-height: 829px;
             background-position: top;
+            padding-top: 30vh; !important
         }
 
         .sanLKTI {
@@ -404,7 +410,7 @@
                 </h1>
             </div>
 
-            <img src="assets/LOGO ARCHIEXPO.png" alt="LogoIc" class="col-lg-6 md-4" style="width: 300px;">
+            <img src="assets/LOGO ARCHIEXPO.png" alt="LogoIc" class="LogoIC col-lg-6 md-4" style="width: 300px;">
             <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
                 <span class="keterangan tw">
                     The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
@@ -427,7 +433,7 @@
         </div>
     </section>
 
-    <section class="expo" id="expo" style="padding-top: 30vh;">
+    <section class="expo" id="expo">
         <div class="row d-flex align-items-center justify-content-start w-75 mx-auto">
             <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
                 <h1 class="desc">
@@ -469,7 +475,7 @@
         <?php include "san_lkti.php" ?>
     </section>
 
-    <section class="archifest" id="archifest" style="padding-top: 20vh;">
+    <section class="archifest" id="archifest" style="padding-top: 10vh;">
         <?php include "archifest.php" ?>
     </section>
 

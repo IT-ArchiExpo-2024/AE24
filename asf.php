@@ -49,14 +49,13 @@
 
         <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
             <span class="keterangan tw">
-                The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
-                unique, interesting and fascinating exhibition designs. This national level competition has been held
-                year
-                after year by HIMAARTRA. With the theme of this year's contest, "Human Needs in Dynamic Building: The
-                Quest to Oasis”, the participants were invited to be aware of the importance of human-centered
-                architecture
-                in dynamic building design. In addition to the participants designing the exhibition, we want them to
-                take home some important lessons that they can apply in each of their designs
+                Architectural Sketch Fair (ASF) is a sketch competition held annually by 
+                HIMAARTRA of Petra Christian University. ASF is a nationwide competition in which 
+                architecture students from all over Indonesia are welcome to compete. In order to encourage 
+                participants to investigate harmony and unity in architectural designs, ASF is introducing the 
+                theme "Unified Elegance: Exploring Architectural Harmony" this year. Students should gain the 
+                ability to think critically and creatively about design harmony through this theme, as well as to 
+                communicate their ideas through building sketches.
             </span>
             <div class="dropdown pt-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"

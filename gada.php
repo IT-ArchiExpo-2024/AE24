@@ -49,14 +49,10 @@
 
         <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-end">
             <span class="keterangan tw">
-                The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
-                unique, interesting and fascinating exhibition designs. This national level competition has been held
-                year
-                after year by HIMAARTRA. With the theme of this year's contest, "Human Needs in Dynamic Building: The
-                Quest to Oasis”, the participants were invited to be aware of the importance of human-centered
-                architecture
-                in dynamic building design. In addition to the participants designing the exhibition, we want them to
-                take home some important lessons that they can apply in each of their designs
+                Geest Van de Architectuur (GADA) a photography competition where participants will be "Unveiling 
+                Extraordinary Spaces" through Architecture. These spaces would be photographed and documented into 
+                the competition where it will be judged by Architectural roles. Each photograph will express each 
+                space's impact on human wellbeing.
             </span>
             <div class="dropdown pt-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"

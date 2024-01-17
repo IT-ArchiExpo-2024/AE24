@@ -27,14 +27,12 @@
 
         <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
             <span class="keterangan tw">
-                The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
-                unique, interesting and fascinating exhibition designs. This national level competition has been held
-                year
-                after year by HIMAARTRA. With the theme of this year's contest, "Human Needs in Dynamic Building: The
-                Quest to Oasis”, the participants were invited to be aware of the importance of human-centered
-                architecture
-                in dynamic building design. In addition to the participants designing the exhibition, we want them to
-                take home some important lessons that they can apply in each of their designs
+                Architecture Festival or usually known as ARCHFEST is an international architectural design 
+                competition that each year the participants are challenged to create innovative solutions to 
+                solve problems within the scope of the competition theme. This year's Architecture festival theme 
+                is “The Blooming Havens”. In this architecture competition, participants are challenged to envision 
+                and design innovative, futuristic educational buildings that address the growing disinterest among
+                students to learn and study the world’s knowledge or their passions. 
             </span>
             <div class="dropdown pt-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
