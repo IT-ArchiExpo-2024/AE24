@@ -135,13 +135,6 @@
             background-position: top;
         }
 
-        .countdown {
-            background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Timeline.png");
-            min-height: 829px;
-            background-position: top;
-        }
-
         .timeline {
             background-repeat: no-repeat;
             background-image: url("assets/bg/AE_Timeline2.png");
@@ -318,12 +311,6 @@
 
         .asf {
             background-image: url("assets/bg/AE_ASF.png");
-            min-height: 829px;
-            background-position: top;
-        }
-
-        .countdown {
-            background-image: url("assets/bg/AE_Timeline.png");
             min-height: 829px;
             background-position: top;
         }
