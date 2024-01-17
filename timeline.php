@@ -71,11 +71,12 @@
         .timeline {
             text-align: center;
             font-family: JustCosmic; 
-            margin: 10px 10px;
+            /* margin: 10px 10px; */
             display: flex;
             flex-direction: column;
             align-items: space-between;
             justify-content: center;
+            width: 100%;
         }
         .timeline_title{
             color: white;
@@ -129,7 +130,7 @@
         }
         #eventss{
             font-size: 30px;
-            margin: 10px 10px;
+            margin: 10px 0px;
         }
         .bgbgbg{
             background-color: white;
@@ -147,6 +148,10 @@
         .test{
             background-color: black;
             width: 1400px;
+        }
+        .timtimt{
+            object-fit: contain;
+            max-width: 100%;
         }
         
         @media screen and (max-width: 991.9px) {
@@ -168,14 +173,25 @@
                 font-size: 40px;
             }
             .countdownn{
-                font-size: 45px;
+                font-size: 40px;
             }
             .contact_title{
                 font-size: 45px;
-
+            }
+            /* .timtimt{
+                width: 500px;
+            } */
+            .biru_gelap h1, .biru_muda h1{
+                font-size: 30px;
+            }
+            #eventss{
+                font-size: 20px;
             }
         }
         @media screen and (max-width: 400px) {
+            .countdownn{
+                font-size: 30px;
+            }
             .w3-bar *{
                 height: 60px;
                 min-width: 20%;
@@ -185,6 +201,10 @@
                 max-height: 50px;
                 max-width: 40px;
                 /* transform: scale(1.3, 1.3); */
+            }.biru_gelap h1, .biru_muda h1{
+                font-size: 20px;
+            }#eventss{
+                font-size: 10px;
             }
         }
     </style>
@@ -254,28 +274,28 @@
             </div>
 
             <div id="xAE24" class="city biru_gelap">
-            <h2>xAE24</h2>
+            <h1>AE24</h1>
             <p>To Be Announced</p>
             </div>
 
             <div id="xLKTI" class="city biru_muda" style="display:none">
             <h1>SANxLKTI</h1>
-            <img src="assets/timelines/TimelineLKTI.png" alt="">
+            <img class="timtimt" src="assets/timelines/TimelineLKTI.png" alt="">
             </div>
 
             <div id="xFEST" class="city biru_gelap" style="display:none">
-            <h2>xFEST</h2>
-            <p>To Be Announced</p>
+            <h1>17th Architecture Festival (ArchFest)</h1>
+            <img class="timtimt" src="assets/timelines/TimelineArchFest.png" alt="">
             </div>
 
             <div id="xGADA" class="city biru_muda" style="display:none">
-            <h2>xGADA</h2>
-            <p>To Be Announced</p>
+            <h1>Geest Van De Architectuur 2024 (GADA)</h1>
+            <img class="timtimt" src="assets/timelines/TimelineGADA.png" alt="">
             </div>
 
             <div id="xASF" class="city biru_gelap" style="display:none">
             <h1>Architectural Sketch Fair (ASF)</h1>
-            <img src="assets/timelines/TimelineASF.png" alt="">
+            <img class="timtimt" src="assets/timelines/TimelineASF.png" alt="">
             </div>
 
 </body>
