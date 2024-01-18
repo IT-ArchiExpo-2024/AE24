@@ -6,7 +6,14 @@
     <title>ARCHIEXPO 2024</title>
     <!-- w3css -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="timeline.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>
     <script>
         var counter = 0;
         function twodigit(intt){
@@ -68,7 +75,7 @@
     </script>
     <style>
         
-        .timeline {
+        .timelineee {
             text-align: center;
             font-family: JustCosmic; 
             /* margin: 10px 10px; */
@@ -212,7 +219,7 @@
 <body>
 
 
-    <div class="timeline">
+    <div class="timelineee">
         <h1 class="timeline_title">Timeline</h1>
         <div class="countdown" >
             <span class="countdownn day" class="col">
@@ -280,7 +287,9 @@
 
             <div id="xLKTI" class="city biru_muda" style="display:none">
             <h1>SANxLKTI</h1>
-            <img class="timtimt" src="assets/timelines/TimelineLKTI.png" alt="">
+            
+            
+
             </div>
 
             <div id="xFEST" class="city biru_gelap" style="display:none">
@@ -298,5 +307,7 @@
             <img class="timtimt" src="assets/timelines/TimelineASF.png" alt="">
             </div>
 
+
 </body>
+
 </html>
