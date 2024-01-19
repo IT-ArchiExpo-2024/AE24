@@ -349,7 +349,6 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
     </div>
-    <div class="swiper-pagination"></div>
   </div>
 
             </div>
