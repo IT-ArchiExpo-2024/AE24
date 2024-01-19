@@ -11,17 +11,17 @@
     font-size: 80px;
 }
 .countdownn {
-    width: 500px;
     font-family: Aurora;
     font-size: 90px;
     display: flex;
     color: white;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .countdown {
-    display: flex;
+    margin: 0 20%;
+    
 }
 .row {
     text-align: center;
@@ -81,8 +81,10 @@
     object-fit: contain;
     max-width: 100%;
 }
-.city *{
-    display: block;
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 3;
 }
 @media screen and (max-width: 991.9px) {
@@ -105,6 +107,7 @@
         font-size: 10px;
    }
     .timeline_title {
+        font-family: Aurora;
         font-size: 40px;
    }
     .countdownn {
@@ -114,7 +117,9 @@
         font-size: 45px;
    }
     .biru_gelap h1, .biru_muda h1 {
-        font-size: 30px;
+        font-family: BaskervilleOldFace;
+        font-weight: 700;
+        font-size: 60px;
    }
     #eventss {
         font-size: 20px;
@@ -136,7 +141,7 @@
         */
    }
     .biru_gelap h1, .biru_muda h1 {
-        font-size: 20px;
+        font-size: 40px;
    }
     #eventss {
         font-size: 10px;

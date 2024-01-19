@@ -114,7 +114,6 @@
             justify-content: space-between;
         }
         .w3-bar-item{
-            background-color: grey;
             min-width: 20%;
             height: 140px;
             border-top-right-radius: 20%;
@@ -214,84 +213,50 @@
                 font-size: 10px;
             }
         }
-
-        .someselector {
-            all:revert;
-        }
-        .app {
-        padding: 50px 0;
-        display: block;
-        }
-        .timeline {
-        margin: 50px 0;
-        list-style-type: none;
-        display: flex;
-        padding: 0;
-        text-align: center;
-        }
-        .timeline li {
-        transition: all 200ms ease-in;
-        }
-        .timestamp {
-        width: 200px;
-        margin-bottom: 20px;
-        padding: 0px 40px;
-        display: flex;
-        justify-content: center;
-        font-weight: 100; 
-        }
-        .status {
-        padding: 0px 40px;
-        display: flex;
-        justify-content: center;
-        border-top: 4px solid #3e70ff;
-        position: relative;
-        transition: all 200ms ease-in ;
-        }
-        
-        .status span {
-        font-weight: 600;
-        padding-top: 20px;
-        }
-        .status span:before {
-        content: '';
-        width: 25px;
-        height: 25px;
-        background-color: #e8eeff;
-        border-radius: 25px;
-        border: 4px solid #3e70ff;
-        position: absolute;
-        top: -15px;
-        left: 42%;
-        transition: all 200ms ease-in;
-        }
-        .swiper-control {
-        text-align: right;
-        }
-
-        .swiper-container {
-        width: 100%;
-        height: 250px;
-        margin: 50px 0;
-        overflow: hidden;
-        padding: 0 20px 30px 20px;
-        }
-        .swiper-slide {
-        width: 200px;
-        text-align: center;
-        font-size: 18px;
-        }
-        .swiper-slide:nth-child(2n) {
-        width: 40%;
-        }
-        .swiper-slide:nth-child(3n) {
-        width: 20%;
-        }
-        .buttons{
-            display: flex;
-            justify-content: center;
-        }
     </style>
+
+    <!-- Demo styles -->
+  <style>
+    /* html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    } */
+
+    .swiper2 {
+      width: 80%;
+      height: 100%;
+    }
+
+    .swiper-slide2 {
+      text-align: center;
+      font-size: 18px;
+      /* background: #fff; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide2 img {
+      display: block;
+      height: 500px;
+      object-fit: cover;
+    }
+    @media screen and (max-width: 400px) {
+        .swiper-slide2 img {
+            height: 300px;
+        }
+    }
+  </style>
 </head>
 <body>
 
@@ -303,20 +268,20 @@
                 <p class="row" id="day">dddd</p>
                 <p class="row row2">Days</p>
             </span>
-            <span class="countdownn"><p>:</p>
-                <p class="row row2"></p></span>
+            <span class="countdownn"><p>|</p>
+                <p class="row row2">&#160</p></span>
             <span class="countdownn hour" class="col">
                 <p class="row" id="hour">hhhh</p>
                 <p class="row row2">Hours</p>
             </span>
-            <span class="countdownn"><p>:</p>
-                <p class="row row2"></p></span>
+            <span class="countdownn"><p>|</p>
+                <p class="row row2">&#160</p></span>
             <span class="countdownn minute" class="col">
                 <p class="row" id="minute">mmmm</p>
                 <p class="row row2">Minutes</p>
             </span>
-            <span class="countdownn"><p>:</p>
-                <p class="row row2"></p></span>
+            <span class="countdownn"><p>|</p>
+                <p class="row row2">&#160</p></span>
             <span class="countdownn second" class="col">
                 <p class="row" id="second">ssss</p>
                 <p class="row row2">Seconds</p>
@@ -359,97 +324,141 @@
 
             <div id="xAE24" class="city biru_gelap">
             <h1>AE24</h1>
-            <p>To Be Announced</p>
+            <!-- <p>To Be Announced</p> -->
             </div>
 
             <div id="xLKTI" class="city biru_muda" style="display:none">
             <h1>SANxLKTI</h1>
-            
-            <div class="app container someselector">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="swiper-container">
-                    <p class="swiper-control">
-                        <!-- <div class="buttonss"> -->
-                        <button type="button" class="btn btn-default btn-sm prev-slide">Prev</button>
-                        <button type="button" class="btn btn-default btn-sm next-slide">Next</button>
-                        <!-- </div> -->
-                    </p>
-                    <div class="swiper-wrapper timeline">
-                        <div class="swiper-slide" v-for="item in steps">
-                            <div class="timestamp">
-                                <div class="date">{{item.dateLabel}}</div>
-                            </div>
-                            <div class="status">
-                                <!-- <div class="date date2">{{item.dateLabel}}</div> -->
-                                <span>{{item.title}}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
+
+            <!-- Swiper -->
+  <div class="swiper2 mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineLKTI.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
-    
+    <div class="swiper-pagination"></div>
+  </div>
 
             </div>
 
             <div id="xFEST" class="city biru_gelap" style="display:none">
-            <h1>17th Architecture Festival (ArchFest)</h1>
-            <img class="timtimt" src="assets/timelines/TimelineArchFest.png" alt="">
+            <h1>17th Architecture Festival (ArchFest)</h1><!-- Swiper -->
+  <div class="swiper2 mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineArchFest.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
             </div>
 
             <div id="xGADA" class="city biru_muda" style="display:none">
             <h1>Geest Van De Architectuur 2024 (GADA)</h1>
-            <img class="timtimt" src="assets/timelines/TimelineGADA.png" alt="">
+            <!-- Swiper -->
+  <div class="swiper2 mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineGADA.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
             </div>
 
             <div id="xASF" class="city biru_gelap" style="display:none">
-            <h1>Architectural Sketch Fair (ASF)</h1>
-            <img class="timtimt" src="assets/timelines/TimelineASF.png" alt="">
+            <h1>Architectural Sketch Fair (ASF)</h1><!-- Swiper -->
+  <div class="swiper2 mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineASF.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
             </div>
-
-            <script>
-    
-        
-    const data = [
-    { dateLabel: 'January 2017', title: 'Gathering Information' },
-    { dateLabel: 'February 2017', title: 'Planning' },
-    { dateLabel: 'March 2017', title: 'Design' },
-    { dateLabel: 'April 2017', title: 'Content Writing and Assembly' },
-    { dateLabel: 'May 2017', title: 'Coding' },
-    { dateLabel: 'June 2017', title: 'Testing, Review & Launch' },
-    { dateLabel: 'July 2017', title: 'Maintenance' }];
-
-var clientsTestimonialsPages = 1;
-    new Vue({
-    el: '#app',
-    data: {
-        steps: data },
-
-    
-    mounted() {
-        console.log(clientsTestimonialsPages);
-        var swiper = new Swiper('.swiper-container', {
-        //pagination: '.swiper-pagination',
-        
-        slidesPerView: window.innerWidth/450,
-        paginationClickable: true,
-        grabCursor: true,
-        paginationClickable: true,
-        nextButton: '.next-slide',
-        prevButton: '.prev-slide' });
-
-    } });
-    //# sourceURL=pen.js
-        
-    </script>
 
 </body>
 
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var myswiper = new Swiper(".mySwiper", {
+    autoheight: true,
+    slidesPerView: 4,
+    spaceBetween: 0,
+    freeMode: false,
+    initialSlide: 5,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+</script>
 
 </html>
