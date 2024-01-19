@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AE24</title>
+    <title>AE24</title> -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <style>
-    body {
-        background: #e8eeff;
-        }
         #app {
         padding: 50px 0;
         }
