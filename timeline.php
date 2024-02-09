@@ -24,8 +24,8 @@
         class Detos {
             constructor() {
                 // list tanggalnya timeline
-                this.datess = ["Jan 19, 2024 0:00:00", "Jan 23, 2024 0:00:00", "Jan 31, 2024 0:00:00", "Feb 1, 2024 0:00:00", "Feb 28, 2024 0:00:00", "Feb 29, 2024 0:00:00", "Mar 3, 2024 0:00:00", "Mar 7, 2024 0:00:00", "Mar 8, 2024 0:00:00", "Mar 12, 2024 0:00:00", "Mar 15, 2024 0:00:00", "Mar 19, 2024 0:00:00", "Mar 21, 2024 0:00:00", "Mar 23, 2024 0:00:00", "Mar 30, 2024 0:00:00", "Apr 5, 2024 0:00:00", "Apr 8, 2024 0:00:00", "May 3, 2024 0:00:00", "May 17, 2024 0:00:00", "May 18, 2024 0:00:00", "May 19, 2024 0:00:00"];
-                this.eventss = ["Early Bird Registration of SANxLKTI, ArchFest, ASF, and GADA", "Abstract Online Submission of SANxLKTI", "Early Bird Registration Closing of SANxLKTI, ArchFest, ASF, and GADA", "Normal Registration of SANxLKTI, ArchFest, ASF, and GADA", "Normal Registration Closing and Abstract Online Submission Closing of SANxLKTI ", "Normal Registration Closing of 17th ArchFest and GADA", "Normal Architectural Sketch Fair Registration Closing", "Abstract Round Passing Announcement of SANxLKTI", "Full Paper Online Submission of SANxLKTI and Close Assessment  17th ArchFest", "Top 15 Announcement 17th Architecture Festival", "Top 5  Announcement 17th ArchFest and Closed Assessment GADA 2024", "Top 20 Announcement Geest Van De Architectuur 2024", "Top 5 Announcement Geest Van De Architectuur 2024", "Final Presentation 17th Architecture Festival", "Final Presentation GADA 2024 and Full Paper Online Submission Closing of SANxLKTI", "Top 3 Announcement Geest Van De Architectuur 2024", "Top 5 Announcement of SANxLKTI", "Final Presentation of SANxLKTI", "Winner Announcement of SANxLKTI and 17th ArchFest", "Winner Announcement of SANxLKTI and 17th ArchFest", "Winner Announcement of SANxLKTI and 17th ArchFest"];
+                this.datess = ["Feb 15, 2024 0:00:00", "Feb 29, 2024 0:00:00", "Mar 1, 2024 0:00:00", "Mar 14, 2024 0:00:00", "Mar 15, 2024 0:00:00", "Mar 16, 2024 0:00:00", "Mar 20, 2024 0:00:00", "Mar 22, 2024 0:00:00", "Mar 23, 2024 0:00:00", "Mar 25, 2024 0:00:00", "Mar 26, 2024 0:00:00", "Mar 27, 2024 0:00:00", "Mar 28, 2024 0:00:00", "Mar 30, 2024 0:00:00", "Apr 4, 2024 0:00:00", "Apr 5, 2024 0:00:00", "Apr 6, 2024 0:00:00", "Apr 28, 2024 0:00:00", "May 5, 2024 0:00:00", "May 6, 2024 0:00:00", "May 18, 2024 0:00:00"];
+                this.eventss = ["ARCHFEST, ASF, GADA, SANXLKTI Early Bird Registration and LKTI's Abstract Submission", "ARCHFEST, ASF, GADA, SANXLKTI Early Bird Registration Closing", "ARCHFEST, ASF, GADA, SANXLKTI Normal Registration", "ARCHFEST, ASF, GADA, SAN Normal Registration Closing", "GADA's Preliminary Judging", "ARCHFEST's Preliminary Judging and SAN's Seminar session", "ARCHFEST's Top 15 Announcement", "ARCHFEST's Top 5 Announcement and ASF's Preliminary Judging", "GADA's Top 20 Announcement", "ASF's Top 30 Announcement", "GADA's Top 5 Announcement", "ASF's Top 10 Announcement", "LKTI's Abstract Submission Closing and LKTI's Normal Registration Closing", "ARCHFEST's and GADA's Final Judging and LKTI's Preliminary Judging", "GADA's Top 3 Announcement", "LKTI's Preliminary Judging End", "ASF's Final Judging and SANXLKTI's Passing Abstract Announcement", "SANXLKTI's Full Paper Preliminary Judging", "SANXLKTI's Full Paper Preliminary Judging End", "SANXLKTI's Finalist announcement", "SANXLKTI's Final Judging"];
             }
             latest() {
                 return this.datess[counter];
@@ -340,7 +340,15 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineLKTI.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
