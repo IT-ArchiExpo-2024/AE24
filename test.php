@@ -76,14 +76,14 @@
 
         .home {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Home.png");
+            background-image: url("assets/bg/architectsheet/AE_Home.png");
             min-height: 829px;
             background-position: top;
         }
 
         .maskot {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Maskot.png");
+            background-image: url("assets/bg/architectsheet/AE_Maskot.png");
             min-height: 829px;
             background-position: top;
             text-align: center;
@@ -93,7 +93,7 @@
 
         .about {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_About.png");
+            background-image: url("assets/bg/architectsheet/AE_About.png");
             min-height: 829px;
             background-position: top;
 
@@ -102,50 +102,50 @@
 
         .expo {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Expo.png");
+            background-image: url("assets/bg/architectsheet/AE_Expo.png");
             min-height: 829px;
             background-position: top;
-            padding-top: 20vh; !important
+            padding-top: 20vh;
+            !important
         }
 
         .sanLKTI {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_sanLKTI.png");
+            background-image: url("assets/bg/architectsheet/AE_sanLKTI.png");
             min-height: 829px;
             background-position: top;
         }
 
         .archifest {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_ArchiFest.png");
+            background-image: url("assets/bg/architectsheet/AE_ArchiFest.png");
             min-height: 829px;
             background-position: top;
         }
 
         .gada {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Gada.png");
+            background-image: url("assets/bg/architectsheet/AE_Gada.png");
             min-height: 829px;
             background-position: top;
         }
 
         .asf {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_ASF.png");
+            background-image: url("assets/bg/architectsheet/AE_ASF.png");
             min-height: 829px;
             background-position: top;
         }
 
         .timeline {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Timeline2.png");
-            min-height: 829px;
+            background-image: url("assets/bg/architectsheet/AE_Timeline2.png");
             background-position: top;
         }
 
         .kontak {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Kontak.png");
+            background-image: url("assets/bg/architectsheet/Layer 11.png");
             min-height: 290px;
             background-position: top;
         }
@@ -153,14 +153,14 @@
         .merchs {
             background-repeat: no-repeat;
             max-height: 829px;
-            background-image: url("assets/bg/AE_Kontak.png");
+            background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
         }
 
         .endsponsor {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/AE_Sponsor.png");
+            background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
         }
@@ -173,13 +173,13 @@
         }
 
         .home {
-            background-image: url("assets/bg/AE_Home.png");
+            background-image: url("assets/bg/architectsheet/AE_Home.png");
             min-height: 829px;
             background-position: top;
         }
 
         .maskot {
-            background-image: url("assets/bg/AE_Maskot.png");
+            background-image: url("assets/bg/architectsheet/AE_Maskot.png");
             min-height: 829px;
             background-position: top;
             text-align: end;
@@ -188,64 +188,63 @@
         }
 
         .about {
-            background-image: url("assets/bg/AE_About.png");
+            background-image: url("assets/bg/architectsheet/AE_About.png");
             min-height: 829px;
             background-position: top;
         }
 
         .expo {
-            background-image: url("assets/bg/AE_Expo.png");
+            background-image: url("assets/bg/architectsheet/AE_Expo.png");
             min-height: 829px;
             background-position: top;
-            padding-top: 30vh; !important
-
+            padding-top: 30vh;
+            !important
         }
 
         .sanLKTI {
-            background-image: url("assets/bg/AE_sanLKTI.png");
+            background-image: url("assets/bg/architectsheet/AE_sanLKTI.png");
             min-height: 829px;
             background-position: top;
         }
 
         .archifest {
-            background-image: url("assets/bg/AE_ArchiFest.png");
+            background-image: url("assets/bg/architectsheet/AE_ArchiFest.png");
             min-height: 829px;
             background-position: top;
         }
 
         .gada {
-            background-image: url("assets/bg/AE_Gada.png");
+            background-image: url("assets/bg/architectsheet/AE_Gada.png");
             min-height: 829px;
             background-position: top;
         }
 
         .asf {
-            background-image: url("assets/bg/AE_ASF.png");
+            background-image: url("assets/bg/architectsheet/AE_ASF.png");
             min-height: 829px;
             background-position: top;
         }
 
         .timeline {
-            background-image: url("assets/bg/AE_Timeline2.png");
-            min-height: 829px;
+            background-image: url("assets/bg/architectsheet/AE_Timeline2.png");
             background-position: top;
         }
 
         .kontak {
-            background-image: url("assets/bg/AE_Kontak.png");
+            background-image: url("assets/bg/architectsheet/Layer 11.png");
             min-height: 290px;
             background-position: top;
         }
 
         .merchs {
             max-height: 829px;
-            background-image: url("assets/bg/AE_Kontak.png");
+            background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
         }
 
         .endsponsor {
-            background-image: url("assets/bg/AE_Sponsor.png");
+            background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
         }
@@ -255,7 +254,7 @@
     /* kecil */
     @media screen and (max-width: 991.9px) {
 
-        .LogoIC{
+        .LogoIC {
             padding-bottom: 5vh;
         }
 
@@ -263,19 +262,19 @@
             padding-top: 150px;
         }
 
-        .title{
+        .title {
             margin-left: 0px;
             text-align: center;
         }
 
         .home {
-            background-image: url("assets/bg/AE_Home.png");
+            background-image: url("assets/bg/architectsheet/AE_Home.png");
             min-height: 829px;
             background-position: top;
         }
 
         .maskot {
-            background-image: url("assets/bg/AE_Maskot.png");
+            background-image: url("assets/bg/architectsheet/AE_Maskot.png");
             min-height: 829px;
             background-position: top;
             text-align: center;
@@ -283,7 +282,7 @@
         }
 
         .about {
-            background-image: url("assets/bg/AE_About.png");
+            background-image: url("assets/bg/architectsheet/AE_About.png");
             min-height: 829px;
             background-position: top;
 
@@ -291,57 +290,57 @@
         }
 
         .expo {
-            background-image: url("assets/bg/AE_Expo.png");
+            background-image: url("assets/bg/architectsheet/AE_Expo.png");
             min-height: 829px;
             background-position: top;
-            padding-top: 30vh; !important
+            padding-top: 30vh;
+            !important
         }
 
         .sanLKTI {
-            background-image: url("assets/bg/AE_sanLKTI.png");
+            background-image: url("assets/bg/architectsheet/AE_sanLKTI.png");
             min-height: 829px;
             background-position: top;
         }
 
         .archifest {
-            background-image: url("assets/bg/AE_ArchiFest.png");
+            background-image: url("assets/bg/architectsheet/AE_ArchiFest.png");
             min-height: 829px;
             background-position: top;
         }
 
         .gada {
-            background-image: url("assets/bg/AE_Gada.png");
+            background-image: url("assets/bg/architectsheet/AE_Gada.png");
             min-height: 829px;
             background-position: top;
         }
 
         .asf {
-            background-image: url("assets/bg/AE_ASF.png");
+            background-image: url("assets/bg/architectsheet/AE_ASF.png");
             min-height: 829px;
             background-position: top;
         }
 
         .timeline {
-            background-image: url("assets/bg/AE_Timeline2.png");
-            min-height: 829px;
+            background-image: url("assets/bg/architectsheet/AE_Timeline2.png");
             background-position: top;
         }
 
         .kontak {
-            background-image: url("assets/bg/AE_Kontak.png");
+            background-image: url("assets/bg/architectsheet/Layer 11.png");
             min-height: 100px;
             background-position: top;
         }
 
         .merchs {
             max-height: 829px;
-            background-image: url("assets/bg/AE_Kontak.png");
+            background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
         }
 
         .endsponsor {
-            background-image: url("assets/bg/AE_Sponsor.png");
+            background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
         }
@@ -359,17 +358,17 @@
         }
     }
 
-    ::-webkit-scrollbar{
+    ::-webkit-scrollbar {
         width: 15px;
     }
 
-    ::-webkit-scrollbar-track{
+    ::-webkit-scrollbar-track {
         /* background: #d1e5ff; */
     }
 
-    ::-webkit-scrollbar-thumb{
-        background: linear-gradient(#2B7870,#BAEDE4);
-        border-radius: 10px;
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(#8877ec, #4b429f);
+        border-radius: 5px;
         height: 100px;
     }
 </style>
@@ -410,7 +409,6 @@
                 </h1>
             </div>
 
-            <img src="assets/LOGO ARCHIEXPO.png" alt="LogoIc" class="LogoIC col-lg-6 md-4" style="width: 300px;">
             <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
                 <span class="keterangan tw">
                     The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
@@ -442,8 +440,8 @@
                     <span class="subJudul tw">Competition</span>
                 </h1>
             </div>
-
-            <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
+            
+            <div class="col-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
                 <span class="keterangan tw">
                     The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
                     unique, interesting and fascinating exhibition designs. This national level competition has been
@@ -458,14 +456,14 @@
                     take home some important lessons that they can apply in each of their designs
                 </span>
                 <div class="dropdown pt-3">
-                    <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    <button class="btn btn-outline-light " type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        MORE INFO
+                        COMING SOON
                     </button>
-                    <ul class="dropdown-menu dropdown-menu-secondary">
+                    <!-- <ul class="dropdown-menu dropdown-menu-secondary">
                         <li><a class="dropdown-item" href="#">REGIST NOW</a></li>
                         <li><a class="dropdown-item" href="#">TIMELINE & CONTACT</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>
@@ -491,8 +489,12 @@
         <?php include "timeline.php" ?>
     </section>
 
-    <section class="kontak" id="kontak" style="padding-top: 12vh">
-        <?php include "contact.php" ?>
+    <section class="kontak d-flex align-items-center justify-content-center" id="kontak">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center">
+                <?php include "contact.php" ?>
+            </div>
+        </div>
     </section>
 
     <section class="merchs" id="merchs" style="padding-top: 10vh">
