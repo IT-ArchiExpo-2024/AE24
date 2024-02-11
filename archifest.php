@@ -18,14 +18,14 @@
 }
 </style>
 
-    <div class="row d-flex align-items-center justify-content-start w-75 mx-auto">
+    <div class="row d-flex align-items-center justify-content-start w-75 mx-auto transblur" style="z-index: 1;">
         <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
             <h1 class="desc">
                 <span class="subJudul tw">Archifest</span>
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start" style="z-index: 1;">
             <span class="keterangan tw">
                 Architecture Festival or usually known as ARCHFEST is an international architectural design 
                 competition that each year the participants are challenged to create innovative solutions to 
@@ -34,7 +34,7 @@
                 and design innovative, futuristic educational buildings that address the growing disinterest among
                 students to learn and study the world’s knowledge or their passions. 
             </span>
-            <div class="dropdown pt-3">
+            <div class="dropdown pt-3 pb-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     MORE INFO
@@ -46,3 +46,4 @@
             </div>
         </div>
     </div>
+    <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 4.png" alt="" style="width: 350px; z-index: 0;">

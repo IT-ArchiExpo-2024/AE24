@@ -40,14 +40,14 @@
 
 <body>
     <div class="space"></div>
-    <div class="row d-flex align-items-center justify-content-start w-75 mx-auto">
+    <div class="row d-flex align-items-center justify-content-start w-75 mx-auto transblur" style="z-index: 1;">
         <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
             <h1 class="desc">
                 <span class="subJudul tw">ASF</span>
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start" style="z-index: 1;">
             <span class="keterangan tw">
                 Architectural Sketch Fair (ASF) is a sketch competition held annually by 
                 HIMAARTRA of Petra Christian University. ASF is a nationwide competition in which 
@@ -57,7 +57,7 @@
                 ability to think critically and creatively about design harmony through this theme, as well as to 
                 communicate their ideas through building sketches.
             </span>
-            <div class="dropdown pt-3">
+            <div class="dropdown pt-3 pb-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     MORE INFO
@@ -88,6 +88,7 @@
             </div>
         </div>
     </div> -->
+    <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 6.png" alt="" style="width: 250px; z-index: 0;;">
 </body>
 
 </html>

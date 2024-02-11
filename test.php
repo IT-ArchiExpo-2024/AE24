@@ -13,6 +13,10 @@
         overflow-x: hidden;
     }
 
+    .end {
+        text-align: end;
+    }
+
     @font-face {
         font-family: JustCosmic;
         src: url('assets/fonts/Just Cosmic.otf');
@@ -61,6 +65,15 @@
         }
     }
 
+    /* .transblur {
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border: 1px solid white;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+    } */
+
     /* besar */
     @media screen and (min-width: 1921px) {
 
@@ -79,6 +92,7 @@
             background-image: url("assets/bg/architectsheet/AE_Home.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
         }
 
         .maskot {
@@ -86,9 +100,14 @@
             background-image: url("assets/bg/architectsheet/AE_Maskot.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
             text-align: center;
 
 
+        }
+
+        .mid{
+            text-align: center;
         }
 
         .about {
@@ -96,6 +115,7 @@
             background-image: url("assets/bg/architectsheet/AE_About.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
 
 
         }
@@ -105,6 +125,7 @@
             background-image: url("assets/bg/architectsheet/AE_Expo.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
             padding-top: 20vh;
             !important
         }
@@ -114,6 +135,7 @@
             background-image: url("assets/bg/architectsheet/AE_sanLKTI.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
         }
 
         .archifest {
@@ -121,6 +143,7 @@
             background-image: url("assets/bg/architectsheet/AE_ArchiFest.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
         }
 
         .gada {
@@ -128,6 +151,7 @@
             background-image: url("assets/bg/architectsheet/AE_Gada.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
         }
 
         .asf {
@@ -135,19 +159,29 @@
             background-image: url("assets/bg/architectsheet/AE_ASF.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
         }
 
         .timeline {
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_Timeline2.png");
             background-position: top;
+            background-size: cover;
         }
 
         .kontak {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/architectsheet/Layer 11.png");
+            background-image: url("assets/bg/architectsheet/AE_Kontak.png");
             min-height: 290px;
             background-position: top;
+            background-size: cover;
+        }
+
+        .contact_title {
+            color: white;
+            font-family: JustCosmic;
+            font-size: 80px;
+            font-weight: 800px;
         }
 
         .merchs {
@@ -156,6 +190,7 @@
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
         }
 
         .endsponsor {
@@ -163,6 +198,7 @@
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 829px;
             background-position: top;
+            background-size: cover;
         }
     }
 
@@ -231,9 +267,16 @@
         }
 
         .kontak {
-            background-image: url("assets/bg/architectsheet/Layer 11.png");
+            background-image: url("assets/bg/architectsheet/AE_Kontak.png");
             min-height: 290px;
             background-position: top;
+        }
+
+        .contact_title {
+            color: white;
+            font-family: JustCosmic;
+            font-size: 80px;
+            font-weight: 800px;
         }
 
         .merchs {
@@ -266,6 +309,15 @@
             margin-left: 0px;
             text-align: center;
         }
+
+            .transblur {
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border: 1px solid white;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+    }
 
         .home {
             background-image: url("assets/bg/architectsheet/AE_Home.png");
@@ -327,7 +379,7 @@
         }
 
         .kontak {
-            background-image: url("assets/bg/architectsheet/Layer 11.png");
+            background-image: url("assets/bg/architectsheet/AE_Kontak.png");
             min-height: 100px;
             background-position: top;
         }
@@ -397,18 +449,19 @@
         <div class="sponsorUtama">
         </div>
         <div class="gambarMaskot">
-            <img src="assets/maskot.png" alt="" style="width: 250px;">
+            <img src="assets/maskot/MASCOT WEBAsset 1.png" alt="" style="width: 300px;">
         </div>
     </section>
 
     <section class="about d-flex align-items-center justify-content-center" id="about">
-        <div class="row d-flex align-items-center justify-content-center w-75">
+        <div class="row d-flex align-items-center justify-content-center w-75 transblur pb-3"> 
             <div class="col-12 d-flex align-items-center justify-content-center">
                 <h1 class="desc">
                     <span class="subJudul tw">About Us</span>
                 </h1>
             </div>
 
+            <img src="assets/LOGO ARCHIEXPO.png" alt="logo archie" style="width: 300px;">
             <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
                 <span class="keterangan tw">
                     The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
@@ -431,17 +484,18 @@
         </div>
     </section>
 
-    <section class="expo" id="expo">
-        <div class="row d-flex align-items-center justify-content-start w-75 mx-auto">
-            <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
+    <section class="expo position-relative" id="expo">
+        <div class="row transblur d-flex align-items-center justify-content-start w-75 mx-auto">
+            <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3" style="z-index: 1;">
                 <h1 class="desc">
                     <span class="subJudul tw">ArchiExpo Exhibition</span>
                     <br>
                     <span class="subJudul tw">Competition</span>
                 </h1>
             </div>
-            
-            <div class="col-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start">
+
+            <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start"
+                style="z-index: 1;">
                 <span class="keterangan tw">
                     The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
                     unique, interesting and fascinating exhibition designs. This national level competition has been
@@ -455,33 +509,31 @@
                     to
                     take home some important lessons that they can apply in each of their designs
                 </span>
-                <div class="dropdown pt-3">
+                <div class="dropdown pt-3 pb-3" style="z-index: 1;">
                     <button class="btn btn-outline-light " type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         COMING SOON
                     </button>
-                    <!-- <ul class="dropdown-menu dropdown-menu-secondary">
-                        <li><a class="dropdown-item" href="#">REGIST NOW</a></li>
-                        <li><a class="dropdown-item" href="#">TIMELINE & CONTACT</a></li>
-                    </ul> -->
                 </div>
             </div>
         </div>
+        <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 2.png" alt=""
+            style="width: 200px; z-index: 0">
     </section>
 
-    <section class="sanLKTI" id="sanLKTI" style="padding-top: 10vh;">
+    <section class="sanLKTI position-relative" id="sanLKTI" style="padding-top: 10vh;">
         <?php include "san_lkti.php" ?>
     </section>
 
-    <section class="archifest" id="archifest" style="padding-top: 10vh;">
+    <section class="archifest position-relative" id="archifest" style="padding-top: 10vh;">
         <?php include "archifest.php" ?>
     </section>
 
-    <section class="gada" id="gada" style="padding-top: 20vh;">
+    <section class="gada position-relative" id="gada" style="padding-top: 20vh;">
         <?php include "gada.php" ?>
     </section>
 
-    <section class="asf" id="asf" style="padding-top: 20vh;">
+    <section class="asf position-relative" id="asf" style="padding-top: 20vh;">
         <?php include "asf.php" ?>
     </section>
 
@@ -497,9 +549,9 @@
         </div>
     </section>
 
-    <section class="merchs" id="merchs" style="padding-top: 10vh">
-        <?php include "merch.php" ?>
-    </section>
+    <!-- <section class="merchs" id="merchs" style="padding-top: 10vh">
+        <?php // include "merch.php" ?>
+    </section> -->
 
     <section class="endsponsor" id="endsponsor">
         <?php include "sponsor.php" ?>

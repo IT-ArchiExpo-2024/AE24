@@ -43,16 +43,16 @@
             }
 
             .dropdown-menu {
-                background-color: #2B7870;
+                background-color: white;
                 color: #fff;
             }
 
             a.dropdown-item {
-                color: white;
+                color: black;
             }
 
             a.dropdown-item:hover {
-                background-color: #BAEDE4;
+                background-color: #c785ec;
             }
         }
 
@@ -125,9 +125,9 @@
                         <li class="nav-item ms-3">
                             <a class="nav-link text-white" href="#timeline">TIMELINE</a>
                         </li>
-                        <li class="nav-item ms-3">
+                        <!-- <li class="nav-item ms-3">
                             <a class="nav-link text-white" href="#merchs">MERCH</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item dropdown navdrop ms-3" style="padding-left: 1px">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
