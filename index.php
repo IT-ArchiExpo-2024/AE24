@@ -149,7 +149,7 @@
 
         .archifest {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/architectsheet/AE_ArchiFest.png");
+            background-image: url("assets/bg/architectsheet/AE_Archifest.png");
             min-height: 829px;
             background-position: top;
             background-size: cover;
@@ -264,7 +264,7 @@
         }
 
         .archifest {
-            background-image: url("assets/bg/architectsheet/AE_ArchiFest.png");
+            background-image: url("assets/bg/architectsheet/AE_Archifest.png");
             min-height: 829px;
             background-position: top;
         }
@@ -380,7 +380,7 @@
         }
 
         .archifest {
-            background-image: url("assets/bg/architectsheet/AE_ArchiFest.png");
+            background-image: url("assets/bg/architectsheet/AE_Archifest.png");
             min-height: 829px;
             background-position: top;
         }
