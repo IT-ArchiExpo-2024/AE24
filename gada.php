@@ -43,12 +43,15 @@
     <div class="row d-flex align-items-center justify-content-end w-75 mx-auto transblur" style="z-index: 1;">
         <div class="col-12 d-flex align-items-center justify-content-end text-end me-3">
             <h1 class="desc">
-                <span class="subJudul tw">GADA</span>
+                <span class="subJudul tw" style="">GADA</span>
+                <br>
+                <span class="subJudul tw" style="font-size: 25px;  ">Geest Van de Architectuur</span>
+                <!-- <span class="subJudul tw">GADA - Geest Van de Architectuur</span> -->
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-end" style="z-index: 1;">
-            <span class="keterangan tw">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-center ms-2 text-end" style="z-index: 1;">
+            <span class="keterangan tw" style="">
                 Geest Van de Architectuur (GADA) a photography competition where participants will be "Unveiling 
                 Extraordinary Spaces" through Architecture. These spaces would be photographed and documented into 
                 the competition where it will be judged by Architectural roles. Each photograph will express each 
@@ -85,7 +88,7 @@
             </div>
         </div>
     </div> -->
-    <img class="position-absolute  start-0 mb-3 ms-3" src="assets/maskot/MASCOT WEBAsset 5.png" alt="" style="width: 300px; bottom: 150px; z-index: 0;">
+    <img class="position-absolute  start-0 mb-3 ms-3" src="assets/maskot/MASCOT WEBAsset 5.png" alt="" style="width: 400px; bottom: 150px; z-index: 0;">
 </body>
 
 </html>

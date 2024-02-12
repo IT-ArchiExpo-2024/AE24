@@ -21,7 +21,7 @@
     <div class="row d-flex align-items-center justify-content-end w-75 mx-auto transblur" style="z-index: 1;">
         <div class="col-12 d-flex align-items-center justify-content-end text-end me-3">
             <h1 class="desc">
-                <span class="subJudul tw">SAN & LKTI</span>
+                <span class="subJudul tw">SANxLKTI</span>
             </h1>
         </div>
 
@@ -44,4 +44,4 @@
             </div>
         </div>
     </div>
-    <img class="position-absolute  start-0 mb-3 ms-3" src="assets/maskot/MASCOT WEBAsset 3.png" alt="" style="width: 500px; bottom: 150px; z-index: 0;">
+    <img class="position-absolute  start-0 mb-3 ms-3" src="assets/maskot/kupu-kupu.png" alt="" style="width: 750px; bottom: 150px; z-index: 0; transform: rotate(20deg)">

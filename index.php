@@ -27,6 +27,11 @@
         src: url('assets/fonts/Aurora.otf');
     }
 
+    @font-face {
+        font-family: Mermaid;
+        src: url('assets/fonts/Mermaid1001.ttf');
+    }
+
     .title {
         font-family: JustCosmic;
         margin-left: 50px;
@@ -41,7 +46,7 @@
     }
 
     .keterangan {
-        font-family: Baskerville;
+        font-family: Mermaid;
     }
 
     .tw {
@@ -73,6 +78,10 @@
         position: relative;
         z-index: 1;
     } */
+
+    .swiper-pagination {
+        visibility: hidden;
+    }
 
     /* besar */
     @media screen and (min-width: 1921px) {
@@ -148,7 +157,7 @@
 
         .gada {
             background-repeat: no-repeat;
-            background-image: url("assets/bg/architectsheet/AE_Gada.png");
+            background-image: url("assets/bg/architectsheet/Artboard_2_copy_8.png");
             min-height: 829px;
             background-position: top;
             background-size: cover;
@@ -204,8 +213,19 @@
 
     /* sedang */
     @media screen and (min-width: 992px) and (max-width: 1920px) {
+        .imageJ{
+            width: 1000px;
+        }
         .journey {
-            padding-top: 100px;
+            padding-top: 80px;
+        }
+
+        .oasis{
+            font-size: 90px;
+        }
+
+        .archie{
+            font-size: 75px;
         }
 
         .home {
@@ -250,7 +270,7 @@
         }
 
         .gada {
-            background-image: url("assets/bg/architectsheet/AE_Gada.png");
+            background-image: url("assets/bg/architectsheet/Artboard_2_copy_8.png");
             min-height: 829px;
             background-position: top;
         }
@@ -296,6 +316,10 @@
 
     /* kecil */
     @media screen and (max-width: 991.9px) {
+
+        .imageJ{
+            width: 400px;
+        }
 
         .LogoIC {
             padding-bottom: 5vh;
@@ -362,7 +386,7 @@
         }
 
         .gada {
-            background-image: url("assets/bg/architectsheet/AE_Gada.png");
+            background-image: url("assets/bg/architectsheet/Artboard_2_copy_8.png");
             min-height: 829px;
             background-position: top;
         }
@@ -429,19 +453,17 @@
 
     <?php include "navbar.php" ?>
 
-    <section class="home" id="home">
-        <div>
-            <h1 class="title tw">
-                <div class="journey col">
-                    THE JOURNEY TO
+    <section class="home" id="home" style="padding-top: 100px;">
+        <div class="d-flex justify-content-center">
+            <!-- <h1 class="title tw">
+                <div class="journey col d-flex align-items-center justify-content-center">
+                    ARCHIEXPO '24
                 </div>
                 <div class="oasis col">
-                    OASIS
+                    THE QUEST TO OASIS
                 </div>
-                <div class="col">
-                    - ARCHIEXPO 24 -
-                </div>
-            </h1>
+            </h1> -->
+            <img src="assets/Judul.png" alt="" style="" class="imageJ">
         </div>
     </section>
 
@@ -449,7 +471,7 @@
         <div class="sponsorUtama">
         </div>
         <div class="gambarMaskot">
-            <img src="assets/maskot/MASCOT WEBAsset 1.png" alt="" style="width: 300px;">
+            <img src="assets/maskot/MASCOT WEBAsset 1.png" alt="" style="width: 450px;">
         </div>
     </section>
 
@@ -490,7 +512,7 @@
                 <h1 class="desc">
                     <span class="subJudul tw">ArchiExpo Exhibition</span>
                     <br>
-                    <span class="subJudul tw">Competition</span>
+                    <span class="subJudul tw">Space Design Competition</span>
                 </h1>
             </div>
 
@@ -518,7 +540,7 @@
             </div>
         </div>
         <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 2.png" alt=""
-            style="width: 200px; z-index: 0">
+            style="width: 500px; z-index: 0">
     </section>
 
     <section class="sanLKTI position-relative" id="sanLKTI" style="padding-top: 10vh;">
@@ -549,9 +571,9 @@
         </div>
     </section>
 
-    <!-- <section class="merchs" id="merchs" style="padding-top: 10vh">
-        <?php // include "merch.php" ?>
-    </section> -->
+    <section class="merchs" id="merchs" style="padding-top: 10vh">
+        <?php  include "merch.php" ?>
+    </section>
 
     <section class="endsponsor" id="endsponsor">
         <?php include "sponsor.php" ?>

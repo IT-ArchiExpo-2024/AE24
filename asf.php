@@ -43,7 +43,7 @@
     <div class="row d-flex align-items-center justify-content-start w-75 mx-auto transblur" style="z-index: 1;">
         <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
             <h1 class="desc">
-                <span class="subJudul tw">ASF</span>
+                <span class="subJudul tw">Architectural Sketch Fair</span>
             </h1>
         </div>
 
@@ -88,7 +88,7 @@
             </div>
         </div>
     </div> -->
-    <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 6.png" alt="" style="width: 250px; z-index: 0;;">
+    <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 6.png" alt="" style="width: 450px; z-index: 0;;">
 </body>
 
 </html>

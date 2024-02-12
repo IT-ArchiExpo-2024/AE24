@@ -96,7 +96,7 @@
         }
 
         /* .header {
-            margin-bottom: 100px;
+            margin-bottom: 10000px;
         } */
     </style>
 </head>
@@ -125,18 +125,18 @@
                         <li class="nav-item ms-3">
                             <a class="nav-link text-white" href="#timeline">TIMELINE</a>
                         </li>
-                        <!-- <li class="nav-item ms-3">
+                        <li class="nav-item ms-3">
                             <a class="nav-link text-white" href="#merchs">MERCH</a>
-                        </li> -->
+                        </li>
                         <li class="nav-item dropdown navdrop ms-3" style="padding-left: 1px">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 OUR EVENTS
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end mt-lg-3">
-                                <li><a class="dropdown-item" href="#">Sayembara Archiexpo 23</a></li>
+                                <li><a class="dropdown-item" href="#">SAYEMBARA ARCHIEXPO 24</a></li>
                                 <li><a class="dropdown-item" href="#sanLKTI">SANxLKTI</a></li>
-                                <li><a class="dropdown-item" href="#archifest">ArchFest</a></li>
+                                <li><a class="dropdown-item" href="#archifest">ARCHFEST</a></li>
                                 <li><a class="dropdown-item" href="#gada">GADA</a></li>
                                 <li><a class="dropdown-item" href="#asf">ASF</a></li>
                             </ul>
