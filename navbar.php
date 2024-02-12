@@ -108,7 +108,7 @@
             <div class="container-fluid">
                 <div>
                     <img class="pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
-                    <img src="assets/ukp outline.png" alt="ukpLogo" width="50">
+                    <img src="assets/ukp outline.png" alt="ukpLogo" width="50" style="padding-left: 10px;">
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
