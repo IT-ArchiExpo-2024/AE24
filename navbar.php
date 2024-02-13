@@ -38,20 +38,21 @@
         @media screen and (min-width: 992px) {
 
             .navdrop {
-                background-color: #BAEDE4;
+                background-color: #fff;
+                border-radius: 5px;
             }
 
             .dropdown-menu {
-                background-color: #2B7870;
+                background-color: white;
                 color: #fff;
             }
 
             a.dropdown-item {
-                color: white;
+                color: black;
             }
 
             a.dropdown-item:hover {
-                background-color: #BAEDE4;
+                background-color: #c785ec;
             }
         }
 
@@ -95,7 +96,7 @@
         }
 
         /* .header {
-            margin-bottom: 100px;
+            margin-bottom: 10000px;
         } */
     </style>
 </head>
@@ -103,11 +104,11 @@
 <body>
 
     <div class="header">
-        <nav class="navbar navbar-expand-lg fixed-top" style="background: #2B7870;">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background: transparent; backdrop-filter: blur(30px);">
             <div class="container-fluid">
                 <div>
                     <img class="pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
-                    <img src="assets/ukp outline.png" alt="ukpLogo" width="50">
+                    <img src="assets/ukp outline.png" alt="ukpLogo" width="50" style="padding-left: 10px;">
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -115,27 +116,27 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
+                        <li class="nav-item ms-3">
                             <a class="nav-link text-white" aria-current="page" href="#home">HOME</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-3">
                             <a class="nav-link text-white" href="#about">ABOUT US</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-3">
                             <a class="nav-link text-white" href="#timeline">TIMELINE</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-3">
                             <a class="nav-link text-white" href="#merchs">MERCH</a>
                         </li>
-                        <li class="nav-item dropdown navdrop">
+                        <li class="nav-item dropdown navdrop ms-3" style="padding-left: 1px">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 OUR EVENTS
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end mt-lg-3">
-                                <li><a class="dropdown-item" href="#">Sayembara Archiexpo 23</a></li>
-                                <li><a class="dropdown-item" href="#sanLKTI">SAN xLKTI</a></li>
-                                <li><a class="dropdown-item" href="#archifest">ArchFest</a></li>
+                                <li><a class="dropdown-item" href="#">SAYEMBARA ARCHIEXPO 24</a></li>
+                                <li><a class="dropdown-item" href="#sanLKTI">SANxLKTI</a></li>
+                                <li><a class="dropdown-item" href="#archifest">ARCHFEST</a></li>
                                 <li><a class="dropdown-item" href="#gada">GADA</a></li>
                                 <li><a class="dropdown-item" href="#asf">ASF</a></li>
                             </ul>

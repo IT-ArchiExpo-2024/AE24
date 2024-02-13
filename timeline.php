@@ -139,17 +139,17 @@
             margin: 10px 0px;
         }
         .bgbgbg{
-            background-color: white;
+            background-color: transparent;
             display: flex;
             justify-content: center;
             align-self: center;
         }
         .biru_gelap{
-            background-color: #00243D;
+            background-color: #584c9c;
             color: white;
         }
         .biru_muda{
-            background-color: #68A7C5;
+            background-color: #9094d4;
         }
         .test{
             background-color: black;
@@ -262,35 +262,35 @@
 
 
     <div class="timelineee">
-        <h1 class="timeline_title">Timeline</h1>
+        <h1 class="timeline_title judul">TIMELINE</h1>
         <div class="countdown" >
             <span class="countdownn day" class="col">
                 <p class="row" id="day">dddd</p>
-                <p class="row row2">Days</p>
+                <p class="row row2 subJudul">Days</p>
             </span>
             <span class="countdownn"><p>|</p>
                 <p class="row row2">&#160</p></span>
             <span class="countdownn hour" class="col">
                 <p class="row" id="hour">hhhh</p>
-                <p class="row row2">Hours</p>
+                <p class="row row2 subJudul">Hours</p>
             </span>
             <span class="countdownn"><p>|</p>
                 <p class="row row2">&#160</p></span>
             <span class="countdownn minute" class="col">
                 <p class="row" id="minute">mmmm</p>
-                <p class="row row2">Minutes</p>
+                <p class="row row2 subJudul">Minutes</p>
             </span>
             <span class="countdownn"><p>|</p>
                 <p class="row row2">&#160</p></span>
             <span class="countdownn second" class="col">
                 <p class="row" id="second">ssss</p>
-                <p class="row row2">Seconds</p>
+                <p class="row row2 subJudul">Seconds</p>
             </span>
         </div>
 
         <div class="event_placeholder">
             <div class="bgbgbg">
-                <p id="eventss">testo</p> 
+                <p id="eventss" style="color: white;">testo</p> 
             </div>
         </div>
     
@@ -323,12 +323,12 @@
             </div>
 
             <div id="xAE24" class="city biru_gelap">
-            <h1>AE24</h1>
+            <h1 class="subJudul">AE24</h1>
             <!-- <p>To Be Announced</p> -->
             </div>
 
             <div id="xLKTI" class="city biru_muda" style="display:none">
-            <h1>SANxLKTI</h1>
+            <h1 class="subJudul">SANxLKTI</h1>
 
             <!-- Swiper -->
   <div class="swiper2 mySwiper">
@@ -362,7 +362,7 @@
             </div>
 
             <div id="xFEST" class="city biru_gelap" style="display:none">
-            <h1>17th Architecture Festival (ArchFest)</h1><!-- Swiper -->
+            <h1 class="subJudul">17th Architecture Festival (ArchFest)</h1><!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -386,7 +386,7 @@
             </div>
 
             <div id="xGADA" class="city biru_muda" style="display:none">
-            <h1>Geest Van De Architectuur 2024 (GADA)</h1>
+            <h1 class="subJudul">Geest Van De Architectuur 2024 (GADA)</h1>
             <!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
@@ -411,7 +411,7 @@
             </div>
 
             <div id="xASF" class="city biru_gelap" style="display:none">
-            <h1>Architectural Sketch Fair (ASF)</h1><!-- Swiper -->
+            <h1 class="subJudul">Architectural Sketch Fair (ASF)</h1><!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>

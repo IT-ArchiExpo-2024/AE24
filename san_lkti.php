@@ -18,21 +18,22 @@
 }
 </style>
 
-    <div class="row d-flex align-items-center justify-content-end w-75 mx-auto">
+    <div class="row d-flex align-items-center justify-content-end w-75 mx-auto transblur" style="z-index: 1;">
+    <img class="" src="assets/logo/LOGO SANXLKTI.png" alt="" style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px); margin-right: 5vh;">
         <div class="col-12 d-flex align-items-center justify-content-end text-end me-3">
             <h1 class="desc">
-                <span class="subJudul tw">SAN & LKTI</span>
+                <span class="subJudul tw">SANxLKTI</span>
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-end">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-end" style="z-index: 1;">
             <span class="keterangan tw">
                 SANxLKTI 2024 is a National Architecture Seminar and Scientific Writing Competition held by 
                 Petra Christian University Surabaya.  This year, SANxLKTI has the theme "Soulful Space".  
                 This theme aims to make participants aware that architecture is not just a building, but is a 
                 space that can influence the human psychology.
             </span>
-            <div class="dropdown pt-3">
+            <div class="dropdown pt-3 pb-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     MORE INFO
@@ -44,3 +45,4 @@
             </div>
         </div>
     </div>
+    <img class="position-absolute  start-0 mb-3 ms-3" src="assets/maskot/kupu-kupu.png" alt="" style="width: 750px; bottom: 150px; z-index: 0; transform: rotate(20deg)">

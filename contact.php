@@ -24,7 +24,8 @@
         .contact_title{
             color: white;
             font-family: JustCosmic;
-            font-size: 80px;
+            /* font-size: 80px; */
+            /* font-weight: 800px; */
         }
 
         /* #ull {
@@ -145,8 +146,8 @@
         </script>
    </head>
    <body>
-    <div class="contactt">
-        <h1 class="contact_title">Contact Us</h1>
+    <div class="contactt pb-2">
+        <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
             <li style="opacity: 0;"></li>
