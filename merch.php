@@ -23,8 +23,10 @@
         <div class="container header-container text-center text-white p-4">
             <h1 class="display-3 merch-header">OUR MERCH!</h1>
         </div>
+        <img class="soon" src="assets/img/COMING_SOON.png" style="" alt="">
 
-        <div class="swiper-container container mt-4">
+
+        <!-- <div class="swiper-container container mt-4">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -75,7 +77,7 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
-        </div>
+        </div> -->
 
 
     </section>

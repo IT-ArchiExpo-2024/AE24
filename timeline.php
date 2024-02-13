@@ -313,7 +313,7 @@
             <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xFEST', 3)">
                 <img class="smol_logo" src="assets/logo/LOGO ARCHFEST.png" alt=""></button>
             <button class="w3-bar-item w3-button biru_muda" onclick="openCity('xGADA', 4)">
-                <img class="smol_logo" style="transform: scale(2, 2);" src="assets/logo/LOGO GADA.png" alt=""></button>
+                <img class="smol_logo" style="transform: scale(2, 2);" src="assets/logo/LOGO GADA (1).png" alt=""></button>
             <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xASF', 5)">
                 <img class="smol_logo" src="assets/logo/LOGO_BARU_ASF.png" alt=""></button>
             </div>
