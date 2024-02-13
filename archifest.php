@@ -41,8 +41,8 @@
                     MORE INFO
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
-                    <li><a class="dropdown-item" href="#">REGIST NOW</a></li>
-                    <li><a class="dropdown-item" href="#">TIMELINE & CONTACT</a></li>
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdXwbU1vcR6lnQMpwmh15jNG_K3rVDbVpAebvV9z_Z5qrVukQ/viewform" target="_blank">REGIST NOW</a></li>
+                    <li><a class="dropdown-item" href="#timeline" onclick="openCity('xFEST')">TIMELINE & CONTACT</a></li>
                 </ul>
             </div>
         </div>

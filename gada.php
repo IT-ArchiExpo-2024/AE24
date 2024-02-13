@@ -41,7 +41,7 @@
 <body>
     <div class="space"></div>
     <div class="row d-flex align-items-center justify-content-end w-75 mx-auto transblur" style="z-index: 1;">
-    <img class="" src="assets/logo/LOGO GADA.png" alt="" style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px); margin-right: 5vh;">
+    <img class="" src="assets/logo/LOGO GADA KECIL.png" alt="" style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px); margin-right: 5vh;">
         <div class="col-12 d-flex align-items-center justify-content-end text-end me-3">
             <h1 class="desc">
                 <span class="subJudul tw" style="">GADA</span>
@@ -65,7 +65,8 @@
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
                     <li><a class="dropdown-item" href="#">REGIST NOW</a></li>
-                    <li><a class="dropdown-item" href="#">TIMELINE & CONTACT</a></li>
+                    <li><a class="dropdown-item" href="#timeline" onclick="openCity('xGADA')">TIMELINE & CONTACT</a></li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1UDj5_6l62hNkRDHVY5tX1sNJbQcgyc-p/view" target="_blank">TERMS OF REFERENCE</a></li>
                 </ul>
             </div>
         </div>

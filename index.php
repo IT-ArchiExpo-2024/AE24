@@ -85,7 +85,9 @@
 
     /* besar */
     @media screen and (min-width: 1921px) {
-
+        .soon{
+            width: 800px;
+        }
         body {
             background: rgb(55, 150, 141);
             background: linear-gradient(142deg, rgba(55, 150, 141, 1) 100%, rgba(70, 171, 153, 1) 100%);
@@ -197,7 +199,7 @@
             background-repeat: no-repeat;
             max-height: 829px;
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
-            min-height: 829px;
+            min-height: 600px;
             background-position: top;
             background-size: cover;
         }
@@ -205,7 +207,7 @@
         .endsponsor {
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
-            min-height: 829px;
+            min-height: 600px;
             background-position: top;
             background-size: cover;
         }
@@ -213,6 +215,9 @@
 
     /* sedang */
     @media screen and (min-width: 992px) and (max-width: 1920px) {
+        .soon{
+            width: 800px;
+        }
         .imageJ{
             width: 1000px;
         }
@@ -302,13 +307,13 @@
         .merchs {
             max-height: 829px;
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
-            min-height: 829px;
+            min-height: 600px;
             background-position: top;
         }
 
         .endsponsor {
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
-            min-height: 829px;
+            min-height: 600px;
             background-position: top;
         }
     }
@@ -316,6 +321,9 @@
 
     /* kecil */
     @media screen and (max-width: 991.9px) {
+        .soon{
+            width:300px;
+        }
 
         .imageJ{
             width: 400px;
@@ -411,13 +419,13 @@
         .merchs {
             max-height: 829px;
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
-            min-height: 829px;
+            min-height: 500px;
             background-position: top;
         }
 
         .endsponsor {
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
-            min-height: 829px;
+            min-height: 600px;
             background-position: top;
         }
     }
@@ -482,11 +490,11 @@
                     <span class="subJudul tw">About Us</span>
                 </h1>
             </div>
-
-            <img src="assets/LOGO ARCHIEXPO.png" alt="logo archie" style="width: 300px;">
-            <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
-                <span class="keterangan tw">
-                    The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
+                
+                <img src="assets/LOGO ARCHIEXPO.png" alt="logo archie" style="width: 300px;">
+                <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
+                    <span class="keterangan tw">
+                        The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
                     produce
                     unique,
                     interesting and fascinating exhibition designs. This national level competition has been held
