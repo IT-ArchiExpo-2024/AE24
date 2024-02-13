@@ -40,7 +40,7 @@
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc8xoUZ9yyyYMxMHfBleLJzzLOzBb1SBFzRshqVqxDYP1wslg/viewform" target="_blank">REGIST NOW</a></li>
-                    <li><a class="dropdown-item" href="#timeline" onclick="openCity('xLKTI')">TIMELINE & CONTACT</a></li>
+                    <li><a class="dropdown-item" href="#timeline" onclick="openCity('xLKTI', 2)">TIMELINE & CONTACT</a></li>
                     <li><a class="dropdown-item" href="#">TERMS OF REFERENCE</a></li>
                 </ul>
             </div>

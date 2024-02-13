@@ -227,10 +227,10 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-tiktok"></i></li>
         </ul>
@@ -241,13 +241,13 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-whatsapp"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-google"></i></li>
         </ul>
@@ -258,10 +258,10 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-whatsapp"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-google"></i></li>
         </ul>
@@ -272,10 +272,10 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-google"></i></li>
         </ul>
@@ -286,13 +286,13 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
             
             <li><i class="fab fa-whatsapp"></i></li>
-            <li style="opacity: 0;"></li>
+            <!-- <li style="opacity: 0;"></li> -->
 
             <li><i class="fab fa-google"></i></li>
         </ul>

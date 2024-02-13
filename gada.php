@@ -65,7 +65,7 @@
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
                     <li><a class="dropdown-item" href="#">REGIST NOW</a></li>
-                    <li><a class="dropdown-item" href="#timeline" onclick="openCity('xGADA')">TIMELINE & CONTACT</a></li>
+                    <li><a class="dropdown-item" href="#timeline" onclick="openCity('xGADA', 4)">TIMELINE & CONTACT</a></li>
                     <li><a class="dropdown-item" href="https://drive.google.com/file/d/1UDj5_6l62hNkRDHVY5tX1sNJbQcgyc-p/view" target="_blank">TERMS OF REFERENCE</a></li>
                 </ul>
             </div>
