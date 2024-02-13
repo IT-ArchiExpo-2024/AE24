@@ -41,6 +41,7 @@
 <body>
     <div class="space"></div>
     <div class="row d-flex align-items-center justify-content-start w-75 mx-auto transblur" style="z-index: 1;">
+    <img class="ms-4 pt-1 pb-2" src="assets/logo/LOGO_BARU_ASF.png" alt="" style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);">
         <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
             <h1 class="desc">
                 <span class="subJudul tw">Architectural Sketch Fair</span>

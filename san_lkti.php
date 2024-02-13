@@ -19,6 +19,7 @@
 </style>
 
     <div class="row d-flex align-items-center justify-content-end w-75 mx-auto transblur" style="z-index: 1;">
+    <img class="" src="assets/logo/LOGO SANXLKTI.png" alt="" style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px); margin-right: 5vh;">
         <div class="col-12 d-flex align-items-center justify-content-end text-end me-3">
             <h1 class="desc">
                 <span class="subJudul tw">SANxLKTI</span>

@@ -508,6 +508,7 @@
 
     <section class="expo position-relative" id="expo">
         <div class="row transblur d-flex align-items-center justify-content-start w-75 mx-auto">
+            <img class="ms-4" src="assets/logo/LOGO ARCHIEXPO.png" alt="" style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);">
             <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3" style="z-index: 1;">
                 <h1 class="desc">
                     <span class="subJudul tw">ArchiExpo Exhibition</span>
@@ -515,7 +516,7 @@
                     <span class="subJudul tw">Space Design Competition</span>
                 </h1>
             </div>
-
+            
             <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start"
                 style="z-index: 1;">
                 <span class="keterangan tw">
