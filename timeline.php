@@ -203,6 +203,11 @@
                 min-width: 20%;
                 text-align: center;
             }
+            .w3-bar-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .smol_logo{
                 max-height: 50px;
                 max-width: 40px;
@@ -298,27 +303,18 @@
             dettt = new Detos();
             setDate(dettt);
 
-            // w3
-            function openCity(cityName) {
-            var i;
-            var x = document.getElementsByClassName("city");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            document.getElementById(cityName).style.display = "block";
-            }
         </script>
 
             <div class="w3-bar">
-            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xAE24')">
+            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xAE24', 1)">
                 <img class="smol_logo" src="assets/logo/LOGO ARCHIEXPO.png" alt=""></button>
-            <button class="w3-bar-item w3-button biru_muda" onclick="openCity('xLKTI')">
+            <button class="w3-bar-item w3-button biru_muda" onclick="openCity('xLKTI', 2)">
                 <img class="smol_logo" src="assets/logo/LOGO SANXLKTI.png" alt=""></button>
-            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xFEST')">
+            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xFEST', 3)">
                 <img class="smol_logo" src="assets/logo/LOGO ARCHFEST.png" alt=""></button>
-            <button class="w3-bar-item w3-button biru_muda" onclick="openCity('xGADA')">
+            <button class="w3-bar-item w3-button biru_muda" onclick="openCity('xGADA', 4)">
                 <img class="smol_logo" style="transform: scale(2, 2);" src="assets/logo/LOGO GADA.png" alt=""></button>
-            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xASF')">
+            <button class="w3-bar-item w3-button biru_gelap" onclick="openCity('xASF', 5)">
                 <img class="smol_logo" src="assets/logo/LOGO ASF.png" alt=""></button>
             </div>
 
@@ -421,7 +417,7 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineASF.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2" id="aassff"><img src="assets/timelines/TimelineASF.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -433,12 +429,14 @@
     <div class="swiper-pagination"></div>
   </div>
             </div>
-
+<script>
+    console.log(document.getElementsByClassName('con1'))
+</script>
 </body>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+            
 <!-- Initialize Swiper -->
 <script>
   var myswiper = new Swiper(".mySwiper", {
