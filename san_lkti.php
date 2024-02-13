@@ -46,4 +46,4 @@
             </div>
         </div>
     </div>
-    <img class="position-absolute  start-0 mb-3 ms-3" src="assets/maskot/kupu-kupu.png" alt="" style="width: 750px; bottom: 150px; z-index: 0; transform: rotate(20deg)">
+    <img class="hideMaskot position-absolute  start-0 mb-3 ms-3" src="assets/maskot/kupu-kupu.png" alt="" style="width: 750px; bottom: 150px; z-index: 0; transform: rotate(20deg)">

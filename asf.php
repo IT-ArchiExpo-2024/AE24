@@ -90,7 +90,7 @@
             </div>
         </div>
     </div> -->
-    <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 6.png" alt="" style="width: 450px; z-index: 0;;">
+    <img class="hideMaskot position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 6.png" alt="" style="width: 450px; z-index: 0;;">
 </body>
 
 </html>

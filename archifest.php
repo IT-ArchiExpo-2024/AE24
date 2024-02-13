@@ -47,4 +47,4 @@
             </div>
         </div>
     </div>
-    <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/Pose nunjuk.png" alt="" style="width: 450px; z-index: 0; transform: rotate(-20deg)">
+    <img class="hideMaskot position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/Pose nunjuk.png" alt="" style="width: 450px; z-index: 0; transform: rotate(-20deg)">

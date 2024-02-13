@@ -330,6 +330,9 @@
 
     /* kecil */
     @media screen and (max-width: 991.9px) {
+        .hideMaskot{
+            opacity: 0.6;
+        }
         .soon {
             width: 300px;
         }
@@ -558,7 +561,7 @@
                 </div>
             </div>
         </div>
-        <img class="position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 2.png" alt=""
+        <img class="hideMaskot position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 2.png" alt=""
             style="width: 500px; z-index: 0">
     </section>
 
