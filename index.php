@@ -85,6 +85,9 @@
 
     /* besar */
     @media screen and (min-width: 1921px) {
+        .logoBlur{
+        border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);
+    }
         .soon {
             width: 800px;
         }
@@ -216,6 +219,9 @@
 
     /* sedang */
     @media screen and (min-width: 992px) and (max-width: 1920px) {
+        .logoBlur{
+        border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);
+    }
         .soon {
             width: 800px;
         }
@@ -518,9 +524,9 @@
     </section>
 
     <section class="expo position-relative" id="expo">
-        <div class="row transblur d-flex align-items-center justify-content-start w-75 mx-auto">
-            <img class="ms-4" src="assets/logo/LOGO ARCHIEXPO.png" alt=""
-                style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);">
+        <div class="row transblur d-flex align-items-center justify-content-lg-start justify-content-center w-75 mx-auto">
+            <img class="logoBlur ms-4" src="assets/logo/LOGO ARCHIEXPO.png" alt=""
+                style="width: 150px;">
             <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3" style="z-index: 1;">
                 <h1 class="desc">
                     <span class="subJudul tw">ArchiExpo Exhibition</span>
