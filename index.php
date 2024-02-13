@@ -85,9 +85,10 @@
 
     /* besar */
     @media screen and (min-width: 1921px) {
-        .soon{
+        .soon {
             width: 800px;
         }
+
         body {
             background: rgb(55, 150, 141);
             background: linear-gradient(142deg, rgba(55, 150, 141, 1) 100%, rgba(70, 171, 153, 1) 100%);
@@ -117,7 +118,7 @@
 
         }
 
-        .mid{
+        .mid {
             text-align: center;
         }
 
@@ -215,21 +216,23 @@
 
     /* sedang */
     @media screen and (min-width: 992px) and (max-width: 1920px) {
-        .soon{
+        .soon {
             width: 800px;
         }
-        .imageJ{
+
+        .imageJ {
             width: 1000px;
         }
+
         .journey {
             padding-top: 80px;
         }
 
-        .oasis{
+        .oasis {
             font-size: 90px;
         }
 
-        .archie{
+        .archie {
             font-size: 75px;
         }
 
@@ -321,11 +324,11 @@
 
     /* kecil */
     @media screen and (max-width: 991.9px) {
-        .soon{
-            width:300px;
+        .soon {
+            width: 300px;
         }
 
-        .imageJ{
+        .imageJ {
             width: 400px;
         }
 
@@ -342,14 +345,14 @@
             text-align: center;
         }
 
-            .transblur {
-        background: transparent;
-        backdrop-filter: blur(10px);
-        border: 1px solid white;
-        border-radius: 10px;
-        position: relative;
-        z-index: 1;
-    }
+        .transblur {
+            background: transparent;
+            backdrop-filter: blur(10px);
+            border: 1px solid white;
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+        }
 
         .home {
             background-image: url("assets/bg/architectsheet/AE_Home.png");
@@ -484,17 +487,17 @@
     </section>
 
     <section class="about d-flex align-items-center justify-content-center" id="about">
-        <div class="row d-flex align-items-center justify-content-center w-75 transblur pb-3"> 
+        <div class="row d-flex align-items-center justify-content-center w-75 transblur pb-3">
             <div class="col-12 d-flex align-items-center justify-content-center">
                 <h1 class="desc">
                     <span class="subJudul tw">About Us</span>
                 </h1>
             </div>
-                
-                <img src="assets/LOGO ARCHIEXPO.png" alt="logo archie" style="width: 300px;">
-                <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
-                    <span class="keterangan tw">
-                        The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
+
+            <img src="assets/LOGO ARCHIEXPO.png" alt="logo archie" style="width: 300px;">
+            <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
+                <span class="keterangan tw">
+                    The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
                     produce
                     unique,
                     interesting and fascinating exhibition designs. This national level competition has been held
@@ -516,7 +519,8 @@
 
     <section class="expo position-relative" id="expo">
         <div class="row transblur d-flex align-items-center justify-content-start w-75 mx-auto">
-            <img class="ms-4" src="assets/logo/LOGO ARCHIEXPO.png" alt="" style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);">
+            <img class="ms-4" src="assets/logo/LOGO ARCHIEXPO.png" alt=""
+                style="width: 150px; border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);">
             <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3" style="z-index: 1;">
                 <h1 class="desc">
                     <span class="subJudul tw">ArchiExpo Exhibition</span>
@@ -524,7 +528,7 @@
                     <span class="subJudul tw">Space Design Competition</span>
                 </h1>
             </div>
-            
+
             <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start"
                 style="z-index: 1;">
                 <span class="keterangan tw">
@@ -581,7 +585,7 @@
     </section>
 
     <section class="merchs" id="merchs" style="padding-top: 10vh">
-        <?php  include "merch.php" ?>
+        <?php include "merch.php" ?>
     </section>
 
     <section class="endsponsor" id="endsponsor">
