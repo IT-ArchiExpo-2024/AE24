@@ -42,13 +42,13 @@
     <div class="space"></div>
     <div class="row d-flex align-items-center justify-content-lg-start justify-content-center w-75 mx-auto transblur" style="z-index: 1;">
     <img class="logoBlur ms-4 pt-1 pb-2" src="assets/logo/LOGO_BARU_ASF.png" alt="" style="width: 150px;">
-        <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
+        <div class="col-12 d-flex align-items-center justify-content-lg-start justify-content-center text-start ms-3">
             <h1 class="desc">
                 <span class="subJudul tw">Architectural Sketch Fair</span>
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start" style="z-index: 1;">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-start justify-content-center ms-2 text-start" style="z-index: 1;">
             <span class="keterangan tw">
                 Architectural Sketch Fair (ASF) is a sketch competition held annually by 
                 HIMAARTRA of Petra Christian University. ASF is a nationwide competition in which 
@@ -67,6 +67,7 @@
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdnDDed3k0YRV4EbYlUCB2KZ52VpU2cQpQZpM56042MiyowjA/viewform" target="_blank">REGIST NOW</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xASF', 5)">TIMELINE & CONTACT</a></li>
                     <li><a class="dropdown-item" href="#">TERMS OF REFERENCE</a></li>
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdHv9KTnnQd3Xr3b6s8_sKpv7QtlOysfnGfUpdQezJKdLXVHg/viewform" target="_blank">SUBMISSION</a></li>
                 </ul>
             </div>
         </div>

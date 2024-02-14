@@ -42,7 +42,7 @@
     <div class="space"></div>
     <div class="row d-flex align-items-center justify-content-lg-end justify-content-center w-75 mx-auto transblur" style="z-index: 1;">
     <img class="logoBlur" src="assets/logo/LOGO GADA KECIL.png" alt="" style="width: 150px;">
-        <div class="col-12 d-flex align-items-center justify-content-end text-end">
+        <div class="col-12 d-flex align-items-center justify-content-lg-end justify-content-center text-end">
             <h1 class="desc">
                 <span class="subJudul tw" style="">GADA</span>
                 <br>
@@ -51,7 +51,7 @@
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-center ms-2 text-end" style="z-index: 1;">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-end justify-content-center ms-2 text-end" style="z-index: 1;">
             <span class="keterangan tw" style="">
                 Geest Van de Architectuur (GADA) a photography competition where participants will be "Unveiling 
                 Extraordinary Spaces" through Architecture. These spaces would be photographed and documented into 

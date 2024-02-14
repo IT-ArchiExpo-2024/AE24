@@ -107,8 +107,9 @@
         <nav class="navbar navbar-expand-lg fixed-top" style="background: transparent; backdrop-filter: blur(30px);">
             <div class="container-fluid">
                 <div>
-                    <img class="pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
-                    <img src="assets/ukp outline.png" alt="ukpLogo" width="50" style="padding-left: 10px;">
+                    <img class="navImg pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
+                    <img class="navImg" src="assets/ukp outline.png" alt="ukpLogo" width="150px" style="padding-left: 5px;">
+                    <img class="navImg" src="assets/LOGO HIMAARTRA PUTIH.png" alt="hima" width="90px" style="padding-left: 0px;">
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,7 +135,7 @@
                                 OUR EVENTS
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end mt-lg-3">
-                                <li><a class="dropdown-item" href="#">SAYEMBARA ARCHIEXPO 24</a></li>
+                                <li><a class="dropdown-item" href="#expo">SAYEMBARA ARCHIEXPO 24</a></li>
                                 <li><a class="dropdown-item" href="#sanLKTI">SANxLKTI</a></li>
                                 <li><a class="dropdown-item" href="#archifest">ARCHFEST</a></li>
                                 <li><a class="dropdown-item" href="#gada">GADA</a></li>

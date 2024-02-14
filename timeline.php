@@ -319,7 +319,7 @@
             </div>
 
             <div id="xAE24" class="city biru_gelap">
-            <h1 class="subJudul">AE24</h1>
+            <h1 class="subJudul">COMING SOON</h1>
             <!-- <p>To Be Announced</p> -->
             </div>
 

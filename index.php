@@ -330,6 +330,9 @@
 
     /* kecil */
     @media screen and (max-width: 991.9px) {
+        .navImg{
+            width: 60px;
+        }
         .hideMaskot{
             opacity: 0.6;
         }
@@ -593,13 +596,13 @@
         </div>
     </section>
 
-    <section class="merchs" id="merchs" style="padding-top: 10vh">
-        <?php include "merch.php" ?>
+    <!-- <section class="merchs" id="merchs" style="padding-top: 10vh">
+        <?php // include "merch.php" ?>
     </section>
 
     <section class="endsponsor" id="endsponsor">
-        <?php include "sponsor.php" ?>
-    </section>
+        <?php // include "sponsor.php" ?>
+    </section> -->
 </body>
 
 </html>

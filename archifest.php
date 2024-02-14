@@ -20,13 +20,13 @@
 
     <div class="row d-flex align-items-center justify-content-lg-start justify-content-center w-75 mx-auto transblur" style="z-index: 1;">
     <img class="logoBlur ms-4" src="assets/logo/LOGO ARCHFEST.png" alt="" style="width: 150px;">
-        <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3">
+        <div class="col-12 d-flex align-items-center justify-content-lg-start justify-content-center text-start ms-3">
             <h1 class="desc">
                 <span class="subJudul tw">Architecture festival</span>
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start" style="z-index: 1;">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-start justify-content-center ms-2 text-start" style="z-index: 1;">
             <span class="keterangan tw">
                 Architecture Festival or usually known as ARCHFEST is an international architectural design 
                 competition that each year the participants are challenged to create innovative solutions to 
@@ -47,4 +47,4 @@
             </div>
         </div>
     </div>
-    <img class="hideMaskot position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/Pose nunjuk.png" alt="" style="width: 450px; z-index: 0; transform: rotate(-20deg)">
+    <img class="hideMaskot position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/Pose nunjuk.png" alt="" style="width: 450px; z-index: 0; transform: rotate(-20deg) translateY(-10em);" >

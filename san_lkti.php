@@ -20,13 +20,13 @@
 
     <div class="row d-flex align-items-center justify-content-lg-end justify-content-center w-75 mx-auto transblur" style="z-index: 1;">
     <img class="logoBlur" src="assets/logo/LOGO SANXLKTI.png" alt="" style="width: 150px;">
-        <div class="col-12 d-flex align-items-center justify-content-end text-end">
+        <div class="col-12 d-flex align-items-center justify-content-lg-end justify-content-center text-end">
             <h1 class="desc">
                 <span class="subJudul tw">SANxLKTI</span>
             </h1>
         </div>
 
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-end" style="z-index: 1;">
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-end justify-content-center ms-2 text-end" style="z-index: 1;">
             <span class="keterangan tw">
                 SANxLKTI 2024 is a National Architecture Seminar and Scientific Writing Competition held by 
                 Petra Christian University Surabaya.  This year, SANxLKTI has the theme "Soulful Space".  
@@ -41,7 +41,8 @@
                 <ul class="dropdown-menu dropdown-menu-secondary">
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc8xoUZ9yyyYMxMHfBleLJzzLOzBb1SBFzRshqVqxDYP1wslg/viewform" target="_blank">REGIST NOW</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xLKTI', 2)">TIMELINE & CONTACT</a></li>
-                    <li><a class="dropdown-item" href="#">TERMS OF REFERENCE</a></li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1S-TS4KfALAlR9X0VXWBfLm2WGpQXB-d7/view?usp=drivesdk" target="_blank">TERMS OF REFERENCE</a></li> 
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfBkIGiwKkGZ308bnuB4uhLPJ9VOBaYTFA3EikTU-u2oUIpzw/viewform" target="_blank">SUBMISSION</a></li> 
                 </ul>
             </div>
         </div>
