@@ -327,7 +327,7 @@
             <h1 class="subJudul">SANxLKTI</h1>
 
             <!-- Swiper -->
-  <div class="swiper2 mySwiper">
+  <div class="swiper2 mySwiper2">
     <div class="swiper-wrapper">
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -445,6 +445,31 @@
     spaceBetween: 0,
     freeMode: false,
     initialSlide: 5,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+    var myswiper2 = new Swiper(".mySwiper2", {
+    autoheight: true,
+    slidesPerView: 4,
+    spaceBetween: 0,
+    freeMode: false,
+    initialSlide: 10,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
