@@ -746,7 +746,7 @@
         <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start"
             style="z-index: 1;">
 
-            <img class="imgDesc aboutUsUp" src="assets/texts/aboutUs.png" alt=""
+            <img class="imgDesc aboutUs" src="assets/texts/aboutUs.png" alt=""
                 style="width: 600px; z-index: 1; transform: translateY(-7em);  ">
             <span class="keterangan tw">
                 <!-- The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
