@@ -11,6 +11,12 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    
+    <script
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous">
+        </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
     </script>
@@ -160,7 +166,7 @@
             max-width: 100%;
         }
         
-        @media screen and (max-width: 991.9px) {
+        @media screen and (max-width: 900.9px) {
             .w3-bar *{
                 height: 80px;
                 min-width: 20%;
@@ -193,8 +199,11 @@
             #eventss{
                 font-size: 20px;
             }
+            .swiper-slide img {
+                transform: scale(0.5 0.5);
+            }
         }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 500px) {
             .countdownn{
                 font-size: 30px;
             }
@@ -216,6 +225,9 @@
                 font-size: 20px;
             }#eventss{
                 font-size: 10px;
+            }
+            .swiper-slide img {
+                transform: scale(0.3 0.3);
             }
         }
     </style>
@@ -256,10 +268,13 @@
       height: 500px;
       object-fit: cover;
     }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 500px) {
         .swiper-slide2 img {
             height: 300px;
         }
+    }
+    .subJudul{
+        font-family: Aurora; 
     }
   </style>
 </head>
@@ -318,6 +333,7 @@
                 <img class="smol_logo" src="assets/logo/LOGO_BARU_ASF.png" alt=""></button>
             </div>
 
+
             <div id="xAE24" class="city biru_gelap">
             <h1 class="subJudul">COMING SOON</h1>
             <!-- <p>To Be Announced</p> -->
@@ -328,14 +344,8 @@
 
             <!-- Swiper -->
   <div class="swiper2 mySwiper2">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+    <div class="swiper-wrapper swiper-wrapper2">
+        
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -344,14 +354,7 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+        
     </div>
   </div>
 
@@ -361,21 +364,14 @@
             <h1 class="subJudul">17th Architecture Festival (ArchFest)</h1><!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+        
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineArchFest.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+        
     </div>
     <div class="swiper-pagination"></div>
   </div>
@@ -386,21 +382,14 @@
             <!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+        
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineGADA.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+        
     </div>
     <div class="swiper-pagination"></div>
   </div>
@@ -410,27 +399,51 @@
             <h1 class="subJudul">Architectural Sketch Fair (ASF)</h1><!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+        
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2" id="aassff"><img src="assets/timelines/TimelineASF.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+        
     </div>
     <div class="swiper-pagination"></div>
   </div>
             </div>
 <script>
-    console.log(document.getElementsByClassName('con1'))
+    // console.log(document.getElementsByClassName('con1'))
+    let width = screen.width;
+    if(width < 600){
+        for (let i = 0; i<5;i++){
+            $('.swiper-wrapper').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+        }
+            $('.swiper-wrapper2').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+    }
+    else if(width < 900){
+        for (let i = 0; i<3;i++){
+            $('.swiper-wrapper').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+        }
+            $('.swiper-wrapper2').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+    }
+    else if(width < 1300){
+        for (let i = 0; i<0;i++){
+            $('.swiper-wrapper').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+        }
+            $('.swiper-wrapper2').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').append('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+            $('.swiper-wrapper2').prepend('<div class="swiper-slide swiper-slide2"><img src="" alt=""></div>');
+    }
 </script>
 </body>
 
@@ -444,51 +457,42 @@
     slidesPerView: 4,
     spaceBetween: 0,
     freeMode: false,
-    initialSlide: 5,
+    initialSlide: 1,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
       breakpoints: {
-        640: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 50,
-        },
+        // 1151: {
+        //   slidesPerView: 2,
+        // },
+        // 800: {
+        //   slidesPerView: 1,
+        // },
       },
     });
-    var myswiper2 = new Swiper(".mySwiper2", {
+    var myswiper2 = new Swiper(".mySwiper2", { // lkti
     autoheight: true,
     slidesPerView: 4,
     spaceBetween: 0,
     freeMode: false,
-    initialSlide: 10,
+    initialSlide: 1,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
       breakpoints: {
-        640: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 50,
-        },
+        // 1151: {
+        //   slidesPerView: 2,
+        // },
+        // 900: {
+        //   slidesPerView: 0.5,
+        // },
       },
     });
 </script>
 
+<!-- 640: {
+    slidesPerView: 1,
+}, -->
 </html>
