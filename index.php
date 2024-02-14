@@ -622,12 +622,12 @@
             </a>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+    <button class="carousel-control-prev" type="button" data-bs-target="#posterAutoplaying"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+    <button class="carousel-control-next" type="button" data-bs-target="#posterAutoplaying"
         data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
@@ -746,7 +746,7 @@
         <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start"
             style="z-index: 1;">
 
-            <img class="imgDesc aboutUs" src="assets/texts/aboutUs.png" alt=""
+            <img class="imgDesc aboutUs" src="assets/texts/AboutUs.png" alt=""
                 style="width: 600px; z-index: 1; transform: translateY(-7em);  ">
             <span class="keterangan tw">
                 <!-- The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce

@@ -27,7 +27,7 @@
         </div> -->
 
         <div class="col-lg-6 md-8 d-flex flex-column align-items-center justify-content-lg-start justify-content-center ms-2 text-start" style="z-index: 1;">
-        <img class="imgDesc" src="assets/texts/archfest.png" alt="" style="width: 600px; ">
+        <img class="imgDesc" src="assets/texts/Archfest.png" alt="" style="width: 600px; ">
 
             <!-- <span class="keterangan tw">
                 Architecture Festival or usually known as ARCHFEST is an international architectural design 
