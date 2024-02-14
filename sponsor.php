@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <div class="container header-container text-center py-4">
+    <!-- <div class="container header-container text-center py-4">
         <h1 class="display-3 merch-header text-white pt-4">SPONSOR</h1>
         <img class="soon" src="assets/img/COMING_SOON.png" style="" alt="">
-    </div>
+    </div> -->
     
     
     <!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">

@@ -85,9 +85,20 @@
 
     /* besar */
     @media screen and (min-width: 1921px) {
-        .logoBlur{
-        border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);
-    }
+
+
+
+        .archieAbout {
+            transform: translateY(10em);
+        }
+
+        .logoBlur {
+            border-radius: 10px;
+            border: 1px solid white;
+            background: transparent;
+            backdrop-filter: blur(10px);
+        }
+
         .soon {
             width: 800px;
         }
@@ -106,6 +117,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_Home.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
         }
@@ -114,6 +126,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_Maskot.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
             text-align: center;
@@ -129,6 +142,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_About.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
 
@@ -139,6 +153,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_Expo.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
             padding-top: 20vh;
@@ -149,6 +164,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_sanLKTI.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
         }
@@ -157,6 +173,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_Archifest.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
         }
@@ -165,6 +182,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/Artboard_2_copy_8.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
         }
@@ -173,6 +191,7 @@
             background-repeat: no-repeat;
             background-image: url("assets/bg/architectsheet/AE_ASF.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             background-size: cover;
         }
@@ -219,9 +238,47 @@
 
     /* sedang */
     @media screen and (min-width: 992px) and (max-width: 1920px) {
-        .logoBlur{
-        border-radius: 10px; border: 1px solid white; background: transparent; backdrop-filter: blur(10px);
-    }
+
+        .imgCountdown{
+            width: 500px;
+        }
+
+
+
+        .timelinePhone {
+            width: 500px;
+        }
+
+        .sanSoon {
+            width: 300px;
+            padding-top: 10px;
+        }
+
+        .growGlow {
+            transition: all .2s ease-in-out;
+        }
+
+        .growGlow:hover {
+            /* transform: scale(1.1);  */
+            box-shadow: 0 10px 15px rgba(255, 255, 255, 0.4);
+            border-radius: 10px;
+            border: 1px solid white;
+            background: transparent;
+            /* -webkit-filter: blur(1px);
+         filter: blur(1px); */
+        }
+
+        .archieAbout {
+            transform: translateY(10em);
+        }
+
+        .logoBlur {
+            border-radius: 10px;
+            border: 1px solid white;
+            background: transparent;
+            backdrop-filter: blur(10px);
+        }
+
         .soon {
             width: 800px;
         }
@@ -245,12 +302,14 @@
         .home {
             background-image: url("assets/bg/architectsheet/AE_Home.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .maskot {
             background-image: url("assets/bg/architectsheet/AE_Maskot.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             text-align: end;
 
@@ -260,12 +319,14 @@
         .about {
             background-image: url("assets/bg/architectsheet/AE_About.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .expo {
             background-image: url("assets/bg/architectsheet/AE_Expo.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             padding-top: 30vh;
             !important
@@ -274,24 +335,28 @@
         .sanLKTI {
             background-image: url("assets/bg/architectsheet/AE_sanLKTI.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .archifest {
             background-image: url("assets/bg/architectsheet/AE_Archifest.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .gada {
             background-image: url("assets/bg/architectsheet/Artboard_2_copy_8.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .asf {
             background-image: url("assets/bg/architectsheet/AE_ASF.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
@@ -330,12 +395,45 @@
 
     /* kecil */
     @media screen and (max-width: 991.9px) {
-        .navImg{
-            width: 60px;
+
+        .imgCountdown{
+            width: 200px;
         }
-        .hideMaskot{
+
+        .imgDescAbout {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+
+        .imgDesc {
+            padding-left: 90px;
+            padding-right: 100px;
+        }
+
+        .hideMaskot {
             opacity: 0.6;
         }
+
+        .timelinePhone {
+            width: 300px;
+        }
+
+        .sanSoon {
+            width: 300px;
+            padding-top: 10px;
+        }
+
+        #ull li:nth-child(even) {
+            display: none;
+        }
+
+
+        .navImg {
+            width: 60px;
+        }
+
+
+
         .soon {
             width: 300px;
         }
@@ -357,24 +455,26 @@
             text-align: center;
         }
 
-        .transblur {
+        /* .transblur {
             background: transparent;
             backdrop-filter: blur(10px);
             border: 1px solid white;
             border-radius: 10px;
             position: relative;
             z-index: 1;
-        }
+        } */
 
         .home {
             background-image: url("assets/bg/architectsheet/AE_Home.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .maskot {
             background-image: url("assets/bg/architectsheet/AE_Maskot.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             text-align: center;
             !important
@@ -383,6 +483,7 @@
         .about {
             background-image: url("assets/bg/architectsheet/AE_About.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
 
 
@@ -391,6 +492,7 @@
         .expo {
             background-image: url("assets/bg/architectsheet/AE_Expo.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
             padding-top: 30vh;
             !important
@@ -399,24 +501,28 @@
         .sanLKTI {
             background-image: url("assets/bg/architectsheet/AE_sanLKTI.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .archifest {
             background-image: url("assets/bg/architectsheet/AE_Archifest.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .gada {
             background-image: url("assets/bg/architectsheet/Artboard_2_copy_8.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
         .asf {
             background-image: url("assets/bg/architectsheet/AE_ASF.png");
             min-height: 829px;
+            max-height: 829px;
             background-position: top;
         }
 
@@ -470,6 +576,15 @@
         border-radius: 5px;
         height: 100px;
     }
+
+    #posterAutoplaying {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 420px !important;
+        border-radius: 15px;
+        margin: 0.5rem auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 </style>
 
 <body>
@@ -477,16 +592,93 @@
     <?php include "navbar.php" ?>
 
     <section class="home" id="home" style="padding-top: 100px;">
+        <div class="d-flex justify-content-center" style="margin-bottom: 200px">
+            <img src="assets/Judul.png" alt="" style="" class="imageJ title">
+        </div>
+
         <div class="d-flex justify-content-center">
-            <!-- <h1 class="title tw">
-                <div class="journey col d-flex align-items-center justify-content-center">
-                    ARCHIEXPO '24
+            <img src="assets/checkOut.png" alt="" style="width: 300px" class="">
+        </div>
+
+        <div class="row">
+        <div id="posterAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="#asf"><img class="growGlow" src="assets/poster/ASF.jpg" style="width: 270px" alt=""></a>
+        </div>
+        <div class="carousel-item">
+            <a href="#archifest">
+                <img class="growGlow" src="assets/poster/archfest.png" style="width: 270px" alt="">
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="#sanLKTI">
+                <img class="growGlow" src="assets/poster/lkti.png" style="width: 270px" alt="">
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="#gada">
+                <img class="growGlow" src="assets/poster/gada.jpg" style="width: 270px" alt="">
+            </a>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+        </div>
+        <!-- <div class="row" style="">
+            <div id="posterCar" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#asf"><img class="growGlow" src="assets/poster/ASF.jpg" style="width: 270px"
+                                alt=""></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#archifest">
+                            <img class="growGlow" src="assets/poster/archfest.png" style="width: 270px" alt="">
+                        </a>
+
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#sanLKTI">
+                            <img class="growGlow" src="assets/poster/lkti.png" style="width: 270px" alt="">
+                        </a>
+
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#gada">
+                            <img class="growGlow" src="assets/poster/gada.jpg" style="width: 270px" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div class="oasis col">
-                    THE QUEST TO OASIS
-                </div>
-            </h1> -->
-            <img src="assets/Judul.png" alt="" style="" class="imageJ">
+                <button class="carousel-control-prev" type="button" data-bs-target="#posterCar" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#posterCar" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> -->
+            <!-- <div class="col-lg-3">
+                <img class="growGlow" src="assets/poster/ASF.jpg" style="width: 270px" alt="">
+            </div>
+            <div class="col-lg-3">
+                <img class="growGlow" src="assets/poster/ASF.jpg" style="width: 270px" alt="">
+            </div>
+            <div class="col-lg-3">
+                <img class="growGlow" src="assets/poster/ASF.jpg" style="width: 270px" alt="">
+            </div>
+            <div class="col-lg-3">
+                <img class="growGlow" src="assets/poster/ASF.jpg" style="width: 270px" alt="">
+            </div> -->
         </div>
     </section>
 
@@ -499,14 +691,23 @@
     </section>
 
     <section class="about d-flex align-items-center justify-content-center" id="about">
-        <div class="row d-flex align-items-center justify-content-center w-75 transblur pb-3">
+        <div class="row">
+
+            <div class="col-lg-6 col-12">
+                <img class="archieAbout" src="assets/LOGO ARCHIEXPO.png" alt="logo archie" style="width: 300px;">
+            </div>
+            <div class="col-lg-6 col-12">
+                <img class="imgDesc" src="assets/texts/ABOUT.png" alt=""
+                    style="width: 500px; transform: translateY(-3em);">
+            </div>
+        </div>
+        <!-- <div class="row d-flex align-items-center justify-content-center w-75 transblur pb-3">
             <div class="col-12 d-flex align-items-center justify-content-center">
                 <h1 class="desc">
                     <span class="subJudul tw">About Us</span>
                 </h1>
             </div>
 
-            <img src="assets/LOGO ARCHIEXPO.png" alt="logo archie" style="width: 300px;">
             <div class="col-lg-6 ms-3 md-8 d-flex align-items-center ms-2">
                 <span class="keterangan tw">
                     The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to
@@ -526,11 +727,12 @@
                     home some important lessons that they can apply in each of their designs
                 </span>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <section class="expo position-relative" id="expo">
-        <div class="row transblur d-flex align-items-center justify-content-lg-start justify-content-center w-75 mx-auto">
+
+        <!-- <div class="row transblur d-flex align-items-center justify-content-lg-start justify-content-center w-75 mx-auto">
             <img class="logoBlur ms-4" src="assets/logo/LOGO ARCHIEXPO.png" alt=""
                 style="width: 150px;">
             <div class="col-12 d-flex align-items-center justify-content-start text-start ms-3" style="z-index: 1;">
@@ -539,12 +741,15 @@
                     <br>
                     <span class="subJudul tw">Space Design Competition</span>
                 </h1>
-            </div>
+            </div> -->
 
-            <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start"
-                style="z-index: 1;">
-                <span class="keterangan tw">
-                    The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
+        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-start ms-2 text-start"
+            style="z-index: 1;">
+
+            <img class="imgDesc aboutUsUp" src="assets/texts/aboutUs.png" alt=""
+                style="width: 600px; z-index: 1; transform: translateY(-7em);  ">
+            <span class="keterangan tw">
+                <!-- The Architecture Expo 2024 Design Competition is a competition held by Architecture Expo to produce
                     unique, interesting and fascinating exhibition designs. This national level competition has been
                     held
                     year
@@ -554,18 +759,17 @@
                     architecture
                     in dynamic building design. In addition to the participants designing the exhibition, we want them
                     to
-                    take home some important lessons that they can apply in each of their designs
-                </span>
-                <div class="dropdown pt-3 pb-3" style="z-index: 1;">
-                    <button class="btn btn-outline-light " type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        COMING SOON
-                    </button>
-                </div>
+                    take home some important lessons that they can apply in each of their designs -->
+            </span>
+            <div class="dropdown pb-3" style="z-index: 1; transform: translateY(-7em);">
+                <button class="btn btn-outline-light " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    COMING SOON
+                </button>
             </div>
         </div>
-        <img class="hideMaskot position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 2.png" alt=""
-            style="width: 500px; z-index: 0">
+        </div>
+        <img class="hideMaskot position-absolute bottom-0 end-0 mb-3 me-3" src="assets/maskot/MASCOT WEBAsset 2.png"
+            alt="" style="width: 500px; z-index: 0">
     </section>
 
     <section class="sanLKTI position-relative" id="sanLKTI" style="padding-top: 10vh;">
@@ -589,20 +793,26 @@
     </section>
 
     <section class="kontak d-flex align-items-center justify-content-center" id="kontak">
-        <div class="row d-flex align-items-center justify-content-center">
-            <div class="d-flex align-items-center">
-                <?php include "contact.php" ?>
+        <div class="row">
+
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center">
+                    <?php include "contact.php" ?>
+                </div>
+            </div>
+            <div class="text-center py-4" style="background ">
+                <h5 class="subJudul" style="letter-spacing: 1px;font-size: 10px; color: white;">© IT ARCHIEXPO 2024</h5>
             </div>
         </div>
     </section>
 
     <!-- <section class="merchs" id="merchs" style="padding-top: 10vh">
         <?php // include "merch.php" ?>
-    </section>
+    </section> -->
 
-    <section class="endsponsor" id="endsponsor">
-        <?php // include "sponsor.php" ?>
+    <!-- <section class="endsponsor" id="endsponsor">
+        <?php //include "sponsor.php" ?>
     </section> -->
 </body>
-
+</div>
 </html>

@@ -40,16 +40,18 @@
 
 <body>
     <div class="space"></div>
-    <div class="row d-flex align-items-center justify-content-lg-start justify-content-center w-75 mx-auto transblur" style="z-index: 1;">
-    <img class="logoBlur ms-4 pt-1 pb-2" src="assets/logo/LOGO_BARU_ASF.png" alt="" style="width: 150px;">
+    <div class="row d-flex align-items-center justify-content-lg-start justify-content-center mx-auto transblur" style="z-index: 1;">
+    <!-- <img class="logoBlur ms-4 pt-1 pb-2" src="assets/logo/LOGO_BARU_ASF.png" alt="" style="width: 150px;">
         <div class="col-12 d-flex align-items-center justify-content-lg-start justify-content-center text-start ms-3">
             <h1 class="desc">
                 <span class="subJudul tw">Architectural Sketch Fair</span>
             </h1>
-        </div>
+        </div> -->
 
         <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-start justify-content-center ms-2 text-start" style="z-index: 1;">
-            <span class="keterangan tw">
+        <img class="imgDesc" src="assets/texts/ASF.png" alt="" style="width: 600px; transform: translateY(-7em); ">
+
+            <!-- <span class="keterangan tw">
                 Architectural Sketch Fair (ASF) is a sketch competition held annually by 
                 HIMAARTRA of Petra Christian University. ASF is a nationwide competition in which 
                 architecture students from all over Indonesia are welcome to compete. In order to encourage 
@@ -57,16 +59,16 @@
                 theme "Unified Elegance: Exploring Architectural Harmony" this year. Students should gain the 
                 ability to think critically and creatively about design harmony through this theme, as well as to 
                 communicate their ideas through building sketches.
-            </span>
-            <div class="dropdown pt-3 pb-3">
-                <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            </span> -->
+            <div class="dropdown pb-3">
+                <button class="btn btn-outline-light dropdown-toggle" style="transform: translateY(-7em);" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     MORE INFO
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdnDDed3k0YRV4EbYlUCB2KZ52VpU2cQpQZpM56042MiyowjA/viewform" target="_blank">REGIST NOW</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xASF', 5)">TIMELINE & CONTACT</a></li>
-                    <li><a class="dropdown-item" href="#">TERMS OF REFERENCE</a></li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1Vl6aBuP_PZUte0zDeXV_vgBCflbjKezl/view?usp=sharing" target="_blank">TERMS OF REFERENCE</a></li>
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdHv9KTnnQd3Xr3b6s8_sKpv7QtlOysfnGfUpdQezJKdLXVHg/viewform" target="_blank">SUBMISSION</a></li>
                 </ul>
             </div>

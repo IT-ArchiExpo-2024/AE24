@@ -25,7 +25,7 @@
             constructor() {
                 // list tanggalnya timeline
                 this.datess = ["Feb 15, 2024 0:00:00", "Feb 29, 2024 0:00:00", "Mar 1, 2024 0:00:00", "Mar 14, 2024 0:00:00", "Mar 15, 2024 0:00:00", "Mar 16, 2024 0:00:00", "Mar 20, 2024 0:00:00", "Mar 22, 2024 0:00:00", "Mar 23, 2024 0:00:00", "Mar 25, 2024 0:00:00", "Mar 26, 2024 0:00:00", "Mar 27, 2024 0:00:00", "Mar 28, 2024 0:00:00", "Mar 30, 2024 0:00:00", "Apr 4, 2024 0:00:00", "Apr 5, 2024 0:00:00", "Apr 6, 2024 0:00:00", "Apr 28, 2024 0:00:00", "May 5, 2024 0:00:00", "May 6, 2024 0:00:00", "May 18, 2024 0:00:00"];
-                this.eventss = ["ARCHFEST, ASF, GADA, SANXLKTI Early Bird Registration and LKTI's Abstract Submission", "ARCHFEST, ASF, GADA, SANXLKTI Early Bird Registration Closing", "ARCHFEST, ASF, GADA, SANXLKTI Normal Registration", "ARCHFEST, ASF, GADA, SAN Normal Registration Closing", "GADA's Preliminary Judging", "ARCHFEST's Preliminary Judging and SAN's Seminar session", "ARCHFEST's Top 15 Announcement", "ARCHFEST's Top 5 Announcement and ASF's Preliminary Judging", "GADA's Top 20 Announcement", "ASF's Top 30 Announcement", "GADA's Top 5 Announcement", "ASF's Top 10 Announcement", "LKTI's Abstract Submission Closing and LKTI's Normal Registration Closing", "ARCHFEST's and GADA's Final Judging and LKTI's Preliminary Judging", "GADA's Top 3 Announcement", "LKTI's Preliminary Judging End", "ASF's Final Judging and SANXLKTI's Passing Abstract Announcement", "SANXLKTI's Full Paper Preliminary Judging", "SANXLKTI's Full Paper Preliminary Judging End", "SANXLKTI's Finalist announcement", "SANXLKTI's Final Judging"];
+                this.eventss = ["ARCHFEST, ASF, GADA, SANXLKTI Early Bird Registration and LKTI's Abstract Submission", "ARCHFEST, ASF, GADA, SANxLKTI Early Bird Registration Closing", "ARCHFEST, ASF, GADA, SANxLKTI Normal Registration", "ARCHFEST, ASF, GADA, SAN Normal Registration Closing", "GADA's Preliminary Judging", "ARCHFEST's Preliminary Judging and SAN's Seminar session", "ARCHFEST's Top 15 Announcement", "ARCHFEST's Top 5 Announcement and ASF's Preliminary Judging", "GADA's Top 20 Announcement", "ASF's Top 30 Announcement", "GADA's Top 5 Announcement", "ASF's Top 10 Announcement", "LKTI's Abstract Submission Closing and LKTI's Normal Registration Closing", "ARCHFEST's and GADA's Final Judging and LKTI's Preliminary Judging", "GADA's Top 3 Announcement", "LKTI's Preliminary Judging End", "ASF's Final Judging and SANxLKTI's Passing Abstract Announcement", "SANxLKTI's Full Paper Preliminary Judging", "SANxLKTI's Full Paper Preliminary Judging End", "SANxLKTI's Finalist announcement", "SANxLKTI's Final Judging"];
             }
             latest() {
                 return this.datess[counter];
@@ -267,8 +267,11 @@
 
 
     <div class="timelineee">
-        <h1 class="timeline_title judul">TIMELINE</h1>
-        <div class="countdown" >
+        <!-- <h1 class="timeline_title judul" style="background-color: rgba(255, 255, 255, 0.3);">COUNTDOWN</h1> -->
+        <div class="d-flex justify-content-center pt-2">
+            <img class="imgCountdown" src="assets/countdown.png" style="" alt="">
+        </div>
+        <div class="countdown">
             <span class="countdownn day" class="col">
                 <p class="row" id="day">dddd</p>
                 <p class="row row2 subJudul">Days</p>
@@ -319,12 +322,14 @@
             </div>
 
             <div id="xAE24" class="city biru_gelap">
-            <h1 class="subJudul">COMING SOON</h1>
+                <img class="sanSoon" src="assets/comingSoon.png" alt=""> <!-- 700 px -->
+            <!-- <h1 class="subJudul">COMING SOON</h1> -->
             <!-- <p>To Be Announced</p> -->
             </div>
 
             <div id="xLKTI" class="city biru_muda" style="display:none">
-            <h1 class="subJudul">SANxLKTI</h1>
+            <!-- <h1 class="subJudul">SANxLKTI</h1> -->
+            <img class="sanSoon" src="assets/time/lktiText.png" alt="">
 
             <!-- Swiper -->
   <div class="swiper2 mySwiper2">
@@ -340,7 +345,7 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineLKTI.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/time/TimelineLKTI.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -358,8 +363,11 @@
             </div>
 
             <div id="xFEST" class="city biru_gelap" style="display:none">
-            <h1 class="subJudul">17th Architecture Festival (ArchFest)</h1><!-- Swiper -->
-  <div class="swiper2 mySwiper">
+                <!-- <h1 class="subJudul">17th Architecture Festival (ArchFest)</h1> -->
+                <img class="timelinePhone" src="assets/time/archfestText.png" alt="">
+
+                
+                <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -368,7 +376,7 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineArchFest.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/time/TimelineArchFest.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -382,7 +390,9 @@
             </div>
 
             <div id="xGADA" class="city biru_muda" style="display:none">
-            <h1 class="subJudul">Geest Van De Architectuur 2024 (GADA)</h1>
+            <!-- <h1 class="subJudul">Geest Van De Architectuur 2024 (GADA)</h1> -->
+            <img class="timelinePhone" src="assets/time/gadaText.png" alt="">
+
             <!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
@@ -393,7 +403,7 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2"><img src="assets/timelines/TimelineGADA.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/time/TimelineGADA.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -407,7 +417,9 @@
             </div>
 
             <div id="xASF" class="city biru_gelap" style="display:none">
-            <h1 class="subJudul">Architectural Sketch Fair (ASF)</h1><!-- Swiper -->
+            <!-- <h1 class="subJudul">Architectural Sketch Fair (ASF)</h1> -->
+            <img class="timelinePhone" src="assets/time/asfText.png" alt="">
+
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -417,7 +429,7 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
-      <div class="swiper-slide swiper-slide2" id="aassff"><img src="assets/timelines/TimelineASF.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2" id="aassff"><img src="assets/time/TimelineASF.png" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>

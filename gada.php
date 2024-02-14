@@ -40,24 +40,25 @@
 
 <body>
     <div class="space"></div>
-    <div class="row d-flex align-items-center justify-content-lg-end justify-content-center w-75 mx-auto transblur" style="z-index: 1;">
-    <img class="logoBlur" src="assets/logo/LOGO GADA KECIL.png" alt="" style="width: 150px;">
-        <div class="col-12 d-flex align-items-center justify-content-lg-end justify-content-center text-end">
+    <div class="row d-flex align-items-center justify-content-lg-end justify-content-center mx-auto transblur" style="z-index: 1;">
+    <!-- <img class="logoBlur" src="assets/logo/LOGO GADA KECIL.png" alt="" style="width: 150px;"> -->
+        <!-- <div class="col-12 d-flex align-items-center justify-content-lg-end justify-content-center text-end">
             <h1 class="desc">
                 <span class="subJudul tw" style="">GADA</span>
                 <br>
                 <span class="subJudul tw" style="font-size: 25px;  ">Geest Van de Architectuur</span>
-                <!-- <span class="subJudul tw">GADA - Geest Van de Architectuur</span> -->
             </h1>
-        </div>
+        </div> -->
 
         <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-end justify-content-center ms-2 text-end" style="z-index: 1;">
-            <span class="keterangan tw" style="">
+        <img class="imgDesc" src="assets/texts/GADA.png" alt="" style="width: 600px; ">
+
+            <!-- <span class="keterangan tw" style="">
                 Geest Van de Architectuur (GADA) a photography competition where participants will be "Unveiling 
                 Extraordinary Spaces" through Architecture. These spaces would be photographed and documented into 
                 the competition where it will be judged by Architectural roles. Each photograph will express each 
                 space's impact on human wellbeing.
-            </span>
+            </span> -->
             <div class="dropdown pt-3 pb-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
@@ -66,7 +67,7 @@
                 <ul class="dropdown-menu dropdown-menu-secondary">
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfpkRZ90fOdEBzTscv6r8Fc-55mUfE_-CA3EEe9ES4UrvH7YA/viewform">REGIST NOW</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xGADA', 4)">TIMELINE & CONTACT</a></li>
-                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1UDj5_6l62hNkRDHVY5tX1sNJbQcgyc-p/view" target="_blank">TERMS OF REFERENCE</a></li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1DKqkCizj2ekczEDuI5lUSLbgti1AsAC6/view" target="_blank">TERMS OF REFERENCE</a></li>
                 </ul>
             </div>
         </div>

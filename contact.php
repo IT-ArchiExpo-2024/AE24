@@ -165,10 +165,10 @@
                     window.open('https://line.me/R/ti/p/@469wztcb', '_blank');
                 });
                 $("#con1 #ull .fa-instagram").parent().click(function() {
-                    window.open('https://www.instagram.com/archiexpo/?hl=en', '_blank');
+                    window.open('https://www.instagram.com/archiexpo.pcu/?igsh=emplcXBsemhlZTlh', '_blank');
                 });
                 $("#con1 #ull .fa-tiktok").parent().click(function() {
-                    window.open('https://www.tiktok.com/@archiexpo.ukp', '_blank');
+                    window.open('https://www.tiktok.com/@archiexpo.pcu', '_blank');
                 });
                 $("#con2 #ull .fa-google").parent().click(function() {
                     window.open('mailto:sanukpetra@gmail.com', '_blank');
@@ -186,7 +186,7 @@
                     window.open('https://wa.me/6281246792903', '_blank');
                 });
                 $("#con3 #ull .fa-instagram").parent().click(function() {
-                    window.open('www.instagram.com/archfest.pcu/', '_blank');
+                    window.open('https://www.instagram.com/archfest.pcu/', '_blank');
                 });
                 $("#con3 #ull .fa-google").parent().click(function() {
                     window.open('mailto:architecturefest@gmail.com', '_blank');
@@ -227,10 +227,10 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-tiktok"></i></li>
         </ul>
@@ -241,13 +241,13 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-whatsapp"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-google"></i></li>
         </ul>
@@ -258,10 +258,10 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-whatsapp"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-google"></i></li>
         </ul>
@@ -272,10 +272,10 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-google"></i></li>
         </ul>
@@ -286,13 +286,13 @@
         <h1 class="contact_title">CONTACT US</h1>
         <ul id="ull">
             <li><i class="fab fa-line"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-instagram"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
             
             <li><i class="fab fa-whatsapp"></i></li>
-            <li style="opacity: 0;"></li>
+            <li class="contactSpacerss" style="opacity: 0;"></li>
 
             <li><i class="fab fa-google"></i></li>
         </ul>

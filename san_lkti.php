@@ -19,21 +19,23 @@
 </style>
 
     <div class="row d-flex align-items-center justify-content-lg-end justify-content-center w-75 mx-auto transblur" style="z-index: 1;">
-    <img class="logoBlur" src="assets/logo/LOGO SANXLKTI.png" alt="" style="width: 150px;">
-        <div class="col-12 d-flex align-items-center justify-content-lg-end justify-content-center text-end">
-            <h1 class="desc">
-                <span class="subJudul tw">SANxLKTI</span>
-            </h1>
-        </div>
-
-        <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-end justify-content-center ms-2 text-end" style="z-index: 1;">
-            <span class="keterangan tw">
+        
+    <!-- <img class="logoBlur" src="assets/logo/LOGO SANXLKTI.png" alt="" style="width: 150px;">
+    <div class="col-12 d-flex align-items-center justify-content-lg-end justify-content-center text-end">
+        <h1 class="desc">
+            <span class="subJudul tw">SANxLKTI</span>
+        </h1>
+    </div> -->
+    
+    <div class="col-lg-6 ms-3 md-8 d-flex flex-column align-items-center justify-content-lg-end justify-content-center ms-2 text-end" style="z-index: 1;">
+        <img class="imgDesc" src="assets/texts/xlkti.png" alt="" style="width: 600px; ">
+            <!-- <span class="keterangan tw">
                 SANxLKTI 2024 is a National Architecture Seminar and Scientific Writing Competition held by 
                 Petra Christian University Surabaya.  This year, SANxLKTI has the theme "Soulful Space".  
                 This theme aims to make participants aware that architecture is not just a building, but is a 
                 space that can influence the human psychology.
-            </span>
-            <div class="dropdown pt-3 pb-3">
+            </span> -->
+            <div class="dropdown pb-3">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     MORE INFO
