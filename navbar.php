@@ -104,17 +104,20 @@
 <body>
 
     <div class="header">
-        <nav class="navbar navbar-expand-lg fixed-top" style="background: transparent; backdrop-filter: blur(30px);">
+        <nav id="navTrap" class="navbar navbar-expand-lg fixed-top" style="background: transparent; backdrop-filter: blur(30px);">
             <div class="container-fluid">
                 <div>
                     <a href="https://www.instagram.com/lifeatpcu?igsh=MTU5OGRlNHJpYmJpNg==" target="_blank" ><img class="navImg" src="assets/ukp outline.png" alt="ukpLogo" width="150px" href="youtube.com" style="padding-left: 5px;"></a>
                     <a href="https://www.instagram.com/himaartra?igsh=MWZ5MzczY2xpcm10Zw==" target="_blank" ><img class="navImg" src="assets/LOGO HIMAARTRA PUTIH.png" alt="hima" width="70px" style="padding-left: 0px;"></a>
-                    <a href="https://www.instagram.com/archiexpo.pcu?igsh=emplcXBsemhlZTlh" target="_blank" ><img class="navImg pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
+                    <a href="https://www.instagram.com/archiexpo.pcu?igsh=emplcXBsemhlZTlh" target="_blank" ><img class="navImg pt-1 pb-1 pe-1" src="assets/LOGO ARCHIEXPO.png" alt="archieLogo" width="50">
+                    <a href="#navTrap"><img class="navImg pt-1 pb-1" src="assets/LOGO ARCHIEXPO.png" style="opacity: 0;" alt="archieLogo" width="1px">
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ms-3">

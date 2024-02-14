@@ -65,7 +65,7 @@
                     MORE INFO
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
-                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfpkRZ90fOdEBzTscv6r8Fc-55mUfE_-CA3EEe9ES4UrvH7YA/viewform">REGIST NOW</a></li>
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfpkRZ90fOdEBzTscv6r8Fc-55mUfE_-CA3EEe9ES4UrvH7YA/viewform">REGISTER NOW</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xGADA', 4)">TIMELINE & CONTACT</a></li>
                     <li><a class="dropdown-item" href="https://drive.google.com/file/d/1DKqkCizj2ekczEDuI5lUSLbgti1AsAC6/view" target="_blank">TERMS OF REFERENCE</a></li>
                 </ul>

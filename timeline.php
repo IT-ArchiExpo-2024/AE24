@@ -345,7 +345,13 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="assets/time/TimelineLKTI.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -362,13 +368,16 @@
 
             </div>
 
-            <div id="xFEST" class="city biru_gelap" style="display:none">
+            <div id="xFEST" class="city biru_gelap pt-3" style="display:none">
                 <!-- <h1 class="subJudul">17th Architecture Festival (ArchFest)</h1> -->
                 <img class="timelinePhone" src="assets/time/archfestText.png" alt="">
 
                 
                 <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -384,18 +393,29 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
     </div>
     <div class="swiper-pagination"></div>
   </div>
             </div>
 
-            <div id="xGADA" class="city biru_muda" style="display:none">
+            <div id="xGADA" class="city biru_muda pt-3" style="display:none">
             <!-- <h1 class="subJudul">Geest Van De Architectuur 2024 (GADA)</h1> -->
             <img class="timelinePhone" src="assets/time/gadaText.png" alt="">
 
             <!-- Swiper -->
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
+
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -411,17 +431,28 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
     </div>
     <div class="swiper-pagination"></div>
   </div>
             </div>
 
-            <div id="xASF" class="city biru_gelap" style="display:none">
+            <div id="xASF" class="city biru_gelap pt-3" style="display:none">
             <!-- <h1 class="subJudul">Architectural Sketch Fair (ASF)</h1> -->
             <img class="timelinePhone" src="assets/time/asfText.png" alt="">
 
   <div class="swiper2 mySwiper">
     <div class="swiper-wrapper">
+
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
@@ -430,6 +461,13 @@
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2" id="aassff"><img src="assets/time/TimelineASF.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
       <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
