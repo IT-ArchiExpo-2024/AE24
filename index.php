@@ -698,7 +698,7 @@
             </div>
             <div class="col-lg-6 col-12">
                 <img class="imgDesc" src="assets/texts/ABOUT.png" alt=""
-                    style="width: 500px; transform: translateY(-3em);">
+                    style="width: 550px; transform: translateY(-3em);">
             </div>
         </div>
         <!-- <div class="row d-flex align-items-center justify-content-center w-75 transblur pb-3">
