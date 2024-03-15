@@ -43,7 +43,7 @@
                     MORE INFO
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
-                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdXwbU1vcR6lnQMpwmh15jNG_K3rVDbVpAebvV9z_Z5qrVukQ/viewform" target="_blank">REGISTER NOW</a></li>
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSch6K8F-Io7hbKfXCY5A66K4L0FQcUWdys9EdkqR1YJLa7PRA/viewform" target="_blank">REGISTER NOW</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xFEST', 3)">TIMELINE & CONTACT</a></li>
                     <li><a class="dropdown-item" href="https://drive.google.com/file/d/1BcOXnYlaXQkz0oLOuNMSVWndJK-Cs1Os/view" target="_blank">TERM OF REFERENCE</a></li>
                 </ul>
