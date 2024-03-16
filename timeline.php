@@ -25,9 +25,41 @@
             constructor() {
                 // list tanggalnya timeline
                 // this.datess = ["Feb 15, 2024 0:00:00", "Feb 29, 2024 0:00:00", "Mar 1, 2024 0:00:00", "Mar 14, 2024 0:00:00", "Mar 15, 2024 0:00:00", "Mar 16, 2024 0:00:00", "Mar 20, 2024 0:00:00", "Mar 22, 2024 0:00:00", "Mar 23, 2024 0:00:00", "Mar 25, 2024 0:00:00", "Mar 26, 2024 0:00:00", "Mar 27, 2024 0:00:00", "Mar 28, 2024 0:00:00", "Mar 30, 2024 0:00:00", "Apr 4, 2024 0:00:00", "Apr 5, 2024 0:00:00", "Apr 6, 2024 0:00:00", "Apr 28, 2024 0:00:00", "May 5, 2024 0:00:00", "May 6, 2024 0:00:00", "May 18, 2024 0:00:00"];
-                this.datess = ["Mar 30, 2024 0:00:00", "Apr 6, 2024 0:00:00", "Apr 28, 2024 0:00:00", "Apr 28, 2024 0:00:00", "May 1, 2024 0:00:00"];
+                this.datess = ["Mar 15, 2024 0:00:00",
+                                "Mar 28, 2024 0:00:00",
+                                "Mar 30, 2024 0:00:00",
+                                "Apr 5, 2024 0:00:00",
+                                "Apr 6, 2024 0:00:00",
+                                "Apr 28, 2024 0:00:00",
+                                "May 1, 2024 0:00:00",
+                                "May 4, 2024 0:00:00",
+                                "May 5, 2024 0:00:00",
+                                "May 6, 2024 0:00:00",
+                                "May 7, 2024 0:00:00",
+                                "May 11, 2024 0:00:00",
+                                "May 15, 2024 0:00:00",
+                                "May 18, 2024 0:00:00",
+                                "May 20, 2024 0:00:00",
+                                "May 25, 2024 0:00:00",
+                                "Jun 2, 2024 0:00:00"];
                 // this.eventss = ["ARCHFEST, ASF, GADA, SANXLKTI Early Bird Registration and LKTI's Abstract Submission", "ARCHFEST, ASF, GADA, SANxLKTI Early Bird Registration Closing", "ARCHFEST, ASF, GADA, SANxLKTI Normal Registration", "ARCHFEST, ASF, GADA, SANxLKTI Early Bird Registration Closing", "GADA's Preliminary Judging", "ARCHFEST's Preliminary Judging and SAN's Seminar session", "ARCHFEST's Top 15 Announcement", "ARCHFEST's Top 5 Announcement and ASF's Preliminary Judging", "GADA's Top 20 Announcement", "ASF's Top 30 Announcement", "GADA's Top 5 Announcement", "ASF's Top 10 Announcement", "LKTI's Abstract Submission Closing and LKTI's Normal Registration Closing", "ARCHFEST's and GADA's Final Judging and LKTI's Preliminary Judging", "GADA's Top 3 Announcement", "LKTI's Preliminary Judging End", "ASF's Final Judging and SANxLKTI's Passing Abstract Announcement", "SANxLKTI's Full Paper Preliminary Judging", "SANxLKTI's Full Paper Preliminary Judging End", "SANxLKTI's Finalist announcement", "SANxLKTI's Final Judging"];
-                this.eventss = ["LKTI's Preliminary Judging", "LKTI Passing Abstract Announcement", "GADA & Archfest Last Day Subbmission, and LKTI Full paper Preliminary Judging", "ASF Last Day Subbmission"];
+                this.eventss = ["GADA, ARCHFEST, ASF Registration",
+                                "LKTI Registration Closing & Abstract submission",
+                                "LKTI Preliminary Judging",
+                                "LKTI Preliminary Judging End",
+                                "SANXLKTI Passing Abstract Announcement",
+                                "GADA, ARCHFEST, ASF Registration Closing (GADA & ARCHFEST Last Day Submission) & SANXLKTI Full Paper Preliminary Judging",
+                                "ASF Last Day Submission",
+                                "ARCHFEST and ASF Close Assesment",
+                                "SANXLKTI Full Paper Preliminary Judging End",
+                                "SANXLKTI Finalist Announcement",
+                                "ARCHFEST Top 15 & Top 5 Announcement",
+                                "ARCHFEST  Final Presentation & ASF Top 30 Announcement",
+                                "GADA Top 20 Announcement",
+                                "ASF Top 10 Announcement & SANXLKTI Final Judging",
+                                "GADA Top 5 Announcement",
+                                "GADA and ASF Final Presentation",
+                                "GADA, ARCHFEST, ASF Winner Announcement"];
             }
             latest() {
                 return this.datess[counter];
