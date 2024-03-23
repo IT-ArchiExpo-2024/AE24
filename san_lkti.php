@@ -41,7 +41,6 @@
                     MORE INFO
                 </button>
                 <ul class="dropdown-menu dropdown-menu-secondary">
-                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc3uxxUqkHAwrlrGmsWymdIim2vdQYCGbUT6UYlcqbqNQnY8g/viewform" target="_blank">REGISTER NOW (SAN)</a></li>
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc_htJzndKrCQemZ-lzjw7B_AbUv4fRI-Y7W6SCKHth0qV4dA/viewform" target="_blank">REGISTER NOW (LKTI)</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xLKTI', 2)">TIMELINE & CONTACT</a></li>
                     <li><a class="dropdown-item" href="https://drive.google.com/file/d/1LBmlmRcJmrhOxwCL_bhffXpicB3x_Xbp/view?usp=drivesdk" target="_blank">TERMS OF REFERENCE</a></li> 
