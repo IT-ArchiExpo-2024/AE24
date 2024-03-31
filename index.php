@@ -762,9 +762,16 @@
                     take home some important lessons that they can apply in each of their designs -->
             </span>
             <div class="dropdown pb-3" style="z-index: 1; transform: translateY(-7em);">
-                <button class="btn btn-outline-light " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    COMING SOON
+                <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    MORE INFO
                 </button>
+                <ul class="dropdown-menu dropdown-menu-secondary">
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSd1sK0Bb5K6q4znqbyihLilRcCq7xUvGYxuUkf5_EWhOTTKUQ/viewform?usp=sf_link" target="_blank">REGISTER NOW</a></li>
+                    <li><a class="dropdown-item" href="#timeline" onclick="openCity('xAE24', 1)">TIMELINE & CONTACT</a></li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1icOzQ637tfimHwmK2y27VA-6WbBItArZ/view" target="_blank">TERMS OF REFERENCE</a></li> 
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSe83CEn-fql540OzPhQdNcz89MH7-NH9FqZOucFi2JldYKqTg/viewform?usp=sf_link" target="_blank">SUBMISSION</a></li> 
+                </ul>
             </div>
         </div>
         </div>

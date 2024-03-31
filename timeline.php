@@ -27,9 +27,12 @@
                 this.datess = ["Mar 15, 2024 0:00:00",
                                 "Mar 28, 2024 0:00:00",
                                 "Mar 30, 2024 0:00:00",
+                                "Apr 1, 2024 0:00:00", 
                                 "Apr 5, 2024 0:00:00",
                                 "Apr 6, 2024 0:00:00",
+                                "Apr 27, 2024 0:00:00",
                                 "Apr 28, 2024 0:00:00",
+                                "Apr 30, 2024 0:00:00",
                                 "May 1, 2024 0:00:00",
                                 "May 4, 2024 0:00:00",
                                 "May 5, 2024 0:00:00",
@@ -40,14 +43,18 @@
                                 "May 18, 2024 0:00:00",
                                 "May 20, 2024 0:00:00",
                                 "May 25, 2024 0:00:00",
+                                "May 31, 2024 0:00:00",
                                 "Jun 2, 2024 0:00:00"];
                 this.eventss = ["GADA, ARCHFEST, ASF Registration",
                                 "LKTI Registration Closing & Abstract submission",
                                 "LKTI Preliminary Judging",
+                                "Registration, dan Pengumpulan Karya ArchiExpo",
                                 "LKTI Preliminary Judging End",
                                 "SANXLKTI Passing Abstract Announcement",
-                                "GADA, ARCHFEST, ASF Registration Closing (GADA & ARCHFEST Last Day Submission) & SANXLKTI Full Paper Preliminary Judging",
-                                "ASF Last Day Submission",
+                                "Penjurian Tertutup ArchiExpo",
+                                "GADA, ARCHFEST, ASF Registration Closing (GADA & ARCHFEST Last Day Submission), Top 5 Announcement ArchiExpo, & SANXLKTI Full Paper Preliminary Judging",
+                                "Penjurian Terbuka ArchiExpo",
+                                "ArchiExpo Winner Announcement, ASF Last Day Submission",
                                 "ARCHFEST and ASF Close Assesment",
                                 "SANXLKTI Full Paper Preliminary Judging End",
                                 "SANXLKTI Finalist Announcement",
@@ -57,6 +64,7 @@
                                 "ASF Top 10 Announcement & SANXLKTI Final Judging",
                                 "GADA Top 5 Announcement",
                                 "GADA and ASF Final Presentation",
+                                "ARCHIEXPO 2024",
                                 "GADA, ARCHFEST, ASF Winner Announcement"];
             }
             latest() {
@@ -354,9 +362,40 @@
             </div>
 
             <div id="xAE24" class="city biru_gelap">
-                <img class="sanSoon" src="assets/comingSoon.png" alt=""> <!-- 700 px -->
-            <!-- <h1 class="subJudul">COMING SOON</h1> -->
-            <!-- <p>To Be Announced</p> -->
+                <img class="sanSoon" src="assets/time/AeText.png" alt=""> <!-- 700 px -->
+                <div class="swiper2 mySwiper2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="assets/time/TimelineAe.png" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+      <div class="swiper-slide swiper-slide2"><img src="" alt=""></div>
+    </div>
+  </div>
             </div>
 
             <div id="xLKTI" class="city biru_muda" style="display:none">
