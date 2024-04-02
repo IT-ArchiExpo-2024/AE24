@@ -621,6 +621,11 @@
                 <img class="growGlow" src="assets/poster/gada.jpg" style="width: 270px" alt="">
             </a>
         </div>
+        <div class="carousel-item">
+            <a href="#gada">
+                <img class="growGlow" src="assets/poster/expo.png" style="width: 270px" alt="">
+            </a>
+        </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#posterAutoplaying"
         data-bs-slide="prev">
