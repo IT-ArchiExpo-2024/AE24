@@ -44,7 +44,7 @@
                     <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc_htJzndKrCQemZ-lzjw7B_AbUv4fRI-Y7W6SCKHth0qV4dA/viewform" target="_blank">REGISTER NOW (LKTI)</a></li>
                     <li><a class="dropdown-item" href="#timeline" onclick="openCity('xLKTI', 2)">TIMELINE & CONTACT</a></li>
                     <li><a class="dropdown-item" href="https://drive.google.com/file/d/1LBmlmRcJmrhOxwCL_bhffXpicB3x_Xbp/view?usp=drivesdk" target="_blank">TERMS OF REFERENCE</a></li> 
-                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfBkIGiwKkGZ308bnuB4uhLPJ9VOBaYTFA3EikTU-u2oUIpzw/viewform" target="_blank">SUBMISSION</a></li> 
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfhxkgQyKE5jsvG1zQ7oVzO5VTfyeFyI-cWU5EH-_yniLCfoQ/viewform" target="_blank">FULL PAPER SUBMISSION</a></li> 
                 </ul>
             </div>
         </div>
