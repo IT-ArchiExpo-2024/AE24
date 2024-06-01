@@ -234,6 +234,51 @@
             background-position: top;
             background-size: cover;
         }
+
+        /* sponsor */
+        .endsponsor{
+            padding-top: 5vw;
+            padding-bottom: 5vw;
+        }
+        /* diamond */
+        .sponsor-citicon {
+            width: 23vw;
+            padding-bottom: 2vw;
+        }
+        .sponsor-nippon {
+            padding-bottom: 2vw;
+            width: 28vw;
+        }
+        .sponsor-kencana {
+            padding-bottom: 2vw;
+            width: 28vw;
+        }
+
+        /* gold */
+        .sponsor-propan {
+            padding-bottom: 2vw;
+            width: 22vw;
+        }
+
+        .sponsor-flat{
+            padding-bottom: 2vw;
+
+            width: 22vw;
+        }
+        
+        /* silver & bronze */
+        .sponsor-cleo {
+            width: 8vw;
+        }
+        .sponsor-gading {
+            width: 13vw;
+        }
+        .sponsor-rizplakat {
+            width: 13vw;
+        }
+        .sponsor-mgm {
+            width: 13vw;
+        }
     }
 
     /* sedang */
@@ -389,6 +434,50 @@
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
             min-height: 600px;
             background-position: top;
+        }
+
+        /* sponsor */
+        .endsponsor{
+            padding-top: 5vw;
+            padding-bottom: 5vw;
+        }
+        /* diamond */
+        .sponsor-citicon {
+            width: 23vw;
+            padding-bottom: 2vw;
+        }
+        .sponsor-nippon {
+            padding-bottom: 2vw;
+            width: 28vw;
+        }
+        .sponsor-kencana {
+            padding-bottom: 2vw;
+            width: 28vw;
+        }
+
+        /* gold */
+        .sponsor-propan {
+            padding-bottom: 2vw;
+            width: 22vw;
+        }
+
+        .sponsor-flat{
+            width: 22vw;
+            padding-bottom: 2vw;
+        }
+        
+        /* silver & bronze */
+        .sponsor-cleo {
+            width: 8vw;
+        }
+        .sponsor-gading {
+            width: 13vw;
+        }
+        .sponsor-rizplakat {
+            width: 13vw;
+        }
+        .sponsor-mgm {
+            width: 13vw;
         }
     }
 
@@ -546,8 +635,56 @@
 
         .endsponsor {
             background-image: url("assets/bg/architectsheet/AE_Sponsor.png");
-            min-height: 600px;
+            /* min-height: 600px; */
             background-position: top;
+        }
+
+        /* sponsor */
+        .endsponsor{
+            padding-top: 5vw;
+            padding-bottom: 5vw;
+        }
+
+        .sponsortitle{
+            width: 10; !Important
+            color: red;
+        }
+        /* diamond */
+        .sponsor-citicon {
+            width: 150px;
+            padding-bottom: 2vw;
+        }
+        .sponsor-nippon {
+            padding-bottom: 2vw;
+            width: 170px;
+        }
+        .sponsor-kencana {
+            padding-bottom: 2vw;
+            width: 150px;
+
+        }
+
+        /* gold */
+        .sponsor-propan {
+            width: 130px;
+        }
+        .sponsor-flat{
+            padding-top: 15px;
+            width: 130px;
+        }
+        
+        /* silver & bronze */
+        .sponsor-cleo {
+            width: 60px;
+        }
+        .sponsor-gading {
+            width: 80px;
+        }
+        .sponsor-rizplakat {
+            width: 80px;
+        }
+        .sponsor-mgm {
+            width: 60px;
         }
     }
 
@@ -585,6 +722,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
 </style>
 
 <body>
@@ -804,6 +942,46 @@
         <?php include "timeline.php" ?>
     </section>
 
+    <section class="endsponsor" id="endsponsor">
+        <div class="logo row" style="justify-content: center; align-items: center;">
+                <h1 class="sponsortitle contact_title">OUR SPONSORS</h1>
+                <!-- diamond -->
+                <div class="col-6 col-lg-4">
+                    <img src="assets/sponsor/citicon.png" alt="" class="sponsor-citicon">
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img src="assets/sponsor/nippon.png" alt="" class="sponsor-nippon">
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img src="assets/sponsor/kencana.png" alt="" class="sponsor-kencana">
+                </div>
+
+                <!-- gold -->
+                <div class="col-6 col-lg-6">
+                    <img src="assets/sponsor/propan.png" alt="" class="sponsor-propan">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="assets/sponsor/flat.jpg" alt="" class="sponsor-flat">
+                </div>
+
+                <!-- silver & bronze -->
+                <div class="col-3 col-lg-3">
+                    <img src="assets/sponsor/cleo.png" alt="" class="sponsor-cleo">
+                </div>
+                <div class="col-3 col-lg-3">
+                    <img src="assets/sponsor/gading.png" alt="" class="sponsor-gading">
+                </div>
+                <div class="col-3 col-lg-3">
+                    <img src="assets/sponsor/rizplakat.png" alt="" class="sponsor-rizplakat">
+                </div>
+                <div class="col-3 col-lg-3">
+                    <img src="assets/sponsor/mgm.png" alt="" class="sponsor-mgm">
+                </div>
+                
+                </div>
+            </div>
+    </section>
+
     <section class="kontak d-flex align-items-center justify-content-center" id="kontak">
         <div class="row">
 
@@ -822,9 +1000,6 @@
         <?php // include "merch.php" ?>
     </section> -->
 
-    <!-- <section class="endsponsor" id="endsponsor">
-        <?php //include "sponsor.php" ?>
-    </section> -->
 </body>
 </div>
 </html>
